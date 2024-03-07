@@ -33,3 +33,32 @@ By convention, the main file is called `index.html`\
 You can follow this convention to keep practicing from the beginning and get used to it.
 
 Practice: [First HTML web page](001-first-web-page/index.html)
+
+## HTML Tags
+An HTML tag starts with a `<`, and ends with a `>`.\
+Within these two simbols, goes the name of the tag we want to use.\
+`<tag_name>`
+
+You must know that there are two types of tags:
+- pair tags (opening and closing)
+- empty tags (self-closing tags)
+
+### Pair tags
+Pair tags have an opening and a closing tag
+- Opening tag: `<tag_name>`
+- Closing tag: `</tag_name>`
+
+Pair tags have contente that must be specified within them.\
+`<tag_name> Content goes in here! </tag_name>`
+
+If only the opening tag is specified, but you forgot about the closing one, it will produce unexpected results, so you must be aware of this.\
+One way you can use to avoid this mistake, is to properly indent your code.
+
+### Empty tags
+This type of tag, doesn't require a closing tag.\
+It does not have any content.
+
+This tag is used to specify an element, or to add information to the web.
+
+You can use an empty tag, as follows:\
+`<tag_name>`
