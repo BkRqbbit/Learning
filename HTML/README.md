@@ -18,3 +18,18 @@ Each one of them, will have different capabilities that will help you on your pa
 It is always recommended that you learn html using a basic text editor, just to get familiar with the sintax, and identify its elements.\
 This process might be interrupted if you use an IDE with autocompletion feature.\
 But, it is up to you!
+
+## Create your first web page
+First of all, you need to know that html files, must have the `.html` or `.htm` extension.
+
+To have a good structure of your files in your computer, you must create a folder where you will store all your html files.\
+It is a good practice to practice from the beginning.\
+It is the way servers store our files in the cloud!
+
+In order to create your first web page, you must create a file with the `.html` extension.\
+This file might have any name you want.
+
+By convention, the main file is called `index.html`\
+You can follow this convention to keep practicing from the beginning and get used to it.
+
+Practice: [First HTML web page](001-first-web-page/index.html)
