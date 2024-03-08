@@ -133,3 +133,24 @@ This tag is used to specify an element, or to add information to the web.
 
 You can use an empty tag, as follows:\
 `<tag_name>`
+
+## HTML Elements
+
+### Headings
+To create a heading in HTML, we use the tag `h` followed by the level of the heading.\
+For example, to create a heading of level 1, we must use the tag `h1`.\
+Consider that headings in html do require an opening and a closing tag.\
+`<h1>Heading title</h1>`
+
+The levels of headings you can use, goes from level 1, up to level 6.\
+Also keep in mind, that the heading with more priority / power, is level 1.\
+So the order goes from top to lower: h1, h2, h3, h4, h5, h6.
+
+HTML headings will be styled by the browser, but you must not use headings to style your content.\
+There's a technology used for styling, called CSS that you must study later. 
+
+Headings are used as titles of the content.\
+You can use them to categorize the web page content.\
+They have an important use for search engines to know what your site is about.\
+Also screen readers might use them to give an overview to the user.\
+So its correct usage must be a priority for you when structuring a web page.
