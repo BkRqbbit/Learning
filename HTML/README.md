@@ -20,19 +20,90 @@ This process might be interrupted if you use an IDE with autocompletion feature.
 But, it is up to you!
 
 ## Create your first web page
+
+### Considerations
 First of all, you need to know that html files, must have the `.html` or `.htm` extension.
 
 To have a good structure of your files in your computer, you must create a folder where you will store all your html files.\
 It is a good practice to practice from the beginning.\
 It is the way servers store our files in the cloud!
 
+### Create the file
 In order to create your first web page, you must create a file with the `.html` extension.\
 This file might have any name you want.
 
 By convention, the main file is called `index.html`\
 You can follow this convention to keep practicing from the beginning and get used to it.
 
-Practice: [First HTML web page](001-first-web-page/index.html)
+The `.html` extension will also help browsers to identify the type of file they are hadnling and how to do it properly.
+
+### Specify HTML version
+In HTML, the first line must be a tag that specifies the version of HTML we are using for the web page.\
+This will help the browser to know how to properly render the content of the site.
+
+The tag we must use for HTML5 (Latest version) is:\
+`<!DOCTYPE html>`
+
+### HTML content
+There is a tag that we must include into each one of our HTML documents.\
+The tag let the browser know that all the content within the tags, is just HTML elements.
+
+The tag is:\
+`<html>...</html>`
+
+All of our HTML elements must be placed within the tags.\
+Except for the previous one that specifies the version of html.
+
+### Head section
+The head section of our html web document contains all the meta-data that our page requires.\
+All of the data that goes in here, is not visible for the user.\
+The tags are used to specify some information to the browser.
+
+To define the head section, we can use the following tag:\
+`<head>...</head>`
+
+### Body section
+The body secstion is used to contain all the content of our web page.\
+Here goes all the information that will be visible for the user.
+
+To define the body section, we can use the following tag:\
+`<body>...</body>`
+
+### title
+The title tag goes between the head section.\
+It specifies the title that goes at the tob of the tab.\
+This data is also used when the site is bookmarked.\
+Or when the site is open, and the browser is minimized.
+
+Title tag goes as follows:\
+`<title>Title of the web</title`>
+
+### character set
+We can specify the browser what character set we want it to use.\
+This will allow us to prevent errors while rendering the content of the page.
+
+As you might know, there are a vast majority of languages around the world.\
+Each country uses a different character set that allows them to use special characters, depending on their language.
+
+There is one character set called `utf-8` that is universal.\
+It would be great to use it, most of the time.
+
+To add it to your web page, you can add the following line:\
+`<meta charset="utf-8>`
+
+### Heading
+Headings are used to add titles to your web content.\
+You can define a heading as follows:\
+`<h1>Heading title</h1>`
+
+Headings are meaningful for the browser.
+
+### Paragraphs
+We can add paragraphs of text with the help of the `<p></P>` tag!
+
+### Example
+To summarize all the previous content we saw, we can built a basic web page as follows:\
+[First HTML web page](001-first-web-page/index.html)
 
 ## HTML Tags
 An HTML tag starts with a `<`, and ends with a `>`.\
