@@ -106,6 +106,20 @@ And is used when you bookmark a site.
 
 `<title>...</title>`
 
+#### Character set
+As you may know, each language that exists around the world, has its unique characters to write.\
+Each country may have support for the different characters.
+
+If you try to render some content of other contry, you may experience some problems.\
+This is exactly what will happen with a website, depending on the country.\
+You can specify to the browser what character set to use, or in other words, what languages it will prioritize.
+
+You can use the `<meta>` tag to do this.\
+Use the attribute `charset` to specify to character set to use.\
+
+It is recommended that you use the `utf-8` charset.\
+It offers support for most languages around the world.
+
 ### Body section
 This section goes inside the `html` tag.\
 It is used to define the content that will be displayed to the user.
