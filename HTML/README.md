@@ -1,4 +1,29 @@
 # HTML
+HTML stands for HyperText Markup Language.\
+It is used to structure the content of a web page.
+
+HTML uses tags to specify different instruction to the browser.
+
+A tag starts with the `<` simbol, and ends with the `>` simbol.\
+The name of the tag goes in between, ex: `<tag>`
+
+There are two types of tags in html:
+- Self-closing tags
+- Paired tags
+
+A paired tag has an opening tag, and a closing one.\
+The opening tag, follows the following structure: `<tag>`\
+While the closing tag, has a slash at the beginning: `</tag>`\
+The content of the tag goes in between both opening and closing tags\
+Ex: `<tag>Content goes here</tag>`
+
+The self-closing tag (also known as empty tag) just contains the opening tag\
+It is characterized by not having a content.\
+It is used to define data, or to add meta data to the web
+Ex: `<tag>`
+
+Keep in mind that if you don't use tags properly, or don't use them at all, the browser might still show the data to the user in screen, but depending on the complexity of the site, it might not work as expected.\
+Search engines can punish you for not doing it correctly.
 
 ## Pre-requisite tools
 There is a tool set that you must have installed on your device to sucessfully write HTML source code and visualize it correctly.
@@ -13,3 +38,83 @@ Keep it mind that it is recommended that you use a modern and popular web browse
 They offer support for new features of technologies like html.
 
 As you can see the requisites are not complicated and almost every coputer must have software that you can use to work with html, with no complicated configurations, memberships, etc.
+
+## First webpage
+The source code is provided here, with proper explanation about what each element does.
+
+### Source code
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>First html web page</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Hello world</h1>
+        <p>My first web page made with html5!</p>
+    </body>
+</html>
+```
+
+### Directory / Folder
+Web servers use folders to organize the structure of their web site.\
+The more familiar you get to this way of organization, the better you can work for future projects.
+
+The name you use for folders is up to you.\
+You don't need to use a specific name, or structure.\
+Just use a structure that you can understan and manage.
+
+Ex: `/home/bkrqbbit/html/`
+
+### Create a new file
+First thing you must keep in mind, is that html elements must have the `.html` format / extension.\
+This will allow the web browser and other software technologies to identify it as what it is (webpage doc).
+
+Also, most web browser will handle the `index` file as the main web page document.\
+This can change from server to server, depending on the configuration that was set, but it is a convention that you must follow.
+
+Now, you must create the `index.html` file, and open it with your favourite text editor.
+
+### Define html version
+The first line of a html document, must be used to specify the version of the language we want the browser to use to render our source file.\
+It is important because each html version has support for different features, and if not specified, the file cannot be rendered properly.
+
+In html5 you can use the following line:\
+`<!DOCTYPE html>`
+
+### HTML source code
+After the html version, you must define the `<html></html>` tag.\
+It indicates to the browser, that everything inside this tag, must be handled as html source code.
+
+Consider that tags are used to add meaning to the content, in such way web browser and other software technologies can understand.\
+So it's recommended that you learn what each html tag does, and use them properly.
+
+### Head section
+This section goes inside the `html` tag.\
+It is used to define all the meta data required by search engines, add style sheets, and external files.
+
+Consider that all the information that goes here, is not displayed to the user.
+
+`<head>...</head>`
+
+#### Title
+The title is used to set the title of the web page.\
+It will appear at the top of the browser.\
+Also when the window is minimized, the information will be shown.\
+And is used when you bookmark a site.
+
+`<title>...</title>`
+
+### Body section
+This section goes inside the `html` tag.\
+It is used to define the content that will be displayed to the user.
+
+`<body>...</body>`
+
+#### Heading
+You can add headings (titles) in html.\
+Use the `<h1>...</h1>` tag
+
+#### Paragraphs
+You can add paragraphs with the `<p>...</p>`
