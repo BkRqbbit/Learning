@@ -132,3 +132,22 @@ Use the `<h1>...</h1>` tag
 
 #### Paragraphs
 You can add paragraphs with the `<p>...</p>`
+
+## HTML Elements
+
+### Headings
+When you use the heading elements in your html code, browsers will add some default styles, but you must not pay attention to them.\
+The goal of html elements is not to add styles, but to format the content in a way software technologies does understand to optimize them and offer a better user experience while surfing on the web.
+
+Later on you can customize the styles of each html element as you want.\
+That's where you must use CSS!
+
+Heading elements are used as titles\
+Consider that each one of them has a level of 'importance'.\
+h1 is the higher, and h6 is the lower one.
+
+Headings goes from h1 to h6.\
+Any heading element that goes outside that range, will not be properly displayed, and not considered by browsers while adding meaning to your html web content.
+
+To add a heading to your website content, use the following tag:\
+`<h1>Heading</h1>`
