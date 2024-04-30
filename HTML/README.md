@@ -25,6 +25,20 @@ Ex: `<tag>`
 Keep in mind that if you don't use tags properly, or don't use them at all, the browser might still show the data to the user in screen, but depending on the complexity of the site, it might not work as expected.\
 Search engines can punish you for not doing it correctly.
 
+## Basic concepts
+
+### Internet
+People has a concept of the internet that might seem more complicated than it really is.\
+The internet is an interconnected network of computer networks.\
+Which means, the internet is a concept, a way to connect all kind of devices all around the world with the purpose of sharing information between them and keep us connected with the rest of the world.
+
+It has become part of our daily lives.\
+Now you can find tools and services online that facilitate our day-to-day lives.\
+Even business have moved to the online world.
+
+Not being connected to the internet could be equal to being disconnected from todays world.\
+With this fast-changing environment, would be almost impossible to keep track of everything that happens in the world.
+
 ## Pre-requisite tools
 There is a tool set that you must have installed on your device to sucessfully write HTML source code and visualize it correctly.
 
