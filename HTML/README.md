@@ -104,6 +104,9 @@ It indicates to the browser, that everything inside this tag, must be handled as
 Consider that tags are used to add meaning to the content, in such way web browser and other software technologies can understand.\
 So it's recommended that you learn what each html tag does, and use them properly.
 
+You can specify the language the web was writen for by using the `lang` attribute.\
+Ex: `<html lang="en">...</html>`
+
 ### Head section
 This section goes inside the `html` tag.\
 It is used to define all the meta data required by search engines, add style sheets, and external files.
