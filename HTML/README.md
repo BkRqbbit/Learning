@@ -131,6 +131,12 @@ And is used when you bookmark a site.
 
 `<title>...</title>`
 
+Popular search engines do use the title text to determine the keyword relevance of the web and even display the title on the search results page.\
+The content of the title tag can be used to improve the seo of your site!
+
+It is recommended that your text title always includes the organization's name.\
+This way you can improve your presence online which 
+
 #### Character set
 As you may know, each language that exists around the world, has its unique characters to write.\
 Each country may have support for the different characters.
