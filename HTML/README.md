@@ -25,6 +25,14 @@ Ex: `<tag>`
 Keep in mind that if you don't use tags properly, or don't use them at all, the browser might still show the data to the user in screen, but depending on the complexity of the site, it might not work as expected.\
 Search engines can punish you for not doing it correctly.
 
+## Questions
+### Do I have to start each tag on its own line?
+The answer is no, the browser does not care about the way you format you source code file.\
+But, it is recommended that you do, it will be helpful for you and your teammates.
+
+You must also include indentation to your code.\
+It will make it easier to read for humans!
+
 ## Attributes
 Most tags can use attributes to add aditional information that may not be displayed to the user.\
 These information is used to specify some data to the browser.
