@@ -25,6 +25,14 @@ Ex: `<tag>`
 Keep in mind that if you don't use tags properly, or don't use them at all, the browser might still show the data to the user in screen, but depending on the complexity of the site, it might not work as expected.\
 Search engines can punish you for not doing it correctly.
 
+## Attributes
+Most tags can use attributes to add aditional information that may not be displayed to the user.\
+These information is used to specify some data to the browser.
+
+Each tag has different attributes.\
+You must study the different attributes available and learn when to use them.\
+This way you can fill all your needs!
+
 ## Basic concepts
 
 ### Internet
