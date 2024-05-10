@@ -218,3 +218,10 @@ The content (text) that you want to add, must be placed within the opening and c
 The text you add to your html web page, using a paragraph will start from left to right.\
 This is known as alignment, and you can change it using css!\
 You can change it by using the `align` attribute, but as it is obsolote for html5, it is a bad practice.
+
+### Line break
+The line break element causes the browser to display the content after the tag in the next line.\
+It will fill the left space till there's no space left for more elements.
+
+To use the line break tag, use the following structure:\
+`<br>`
