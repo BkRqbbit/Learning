@@ -190,3 +190,31 @@ Any heading element that goes outside that range, will not be properly displayed
 
 To add a heading to your website content, use the following tag:\
 `<h1>Heading</h1>`
+
+Heading elements make your web page more accesible and usable.\
+They are used to improve / add meaningful content that is used for screen readers, and search engines to categorize your content, and help users found the best quality content possible.
+
+It is a good practice to use heading tags to outline the structure of your web
+page content.\
+Remember that good practices are meant to improve the structure of your website as well as the content and source code structure.
+
+The good structure of your page depends on the use of the headings elements.\
+Keep in mind that challenged visual visitors may refer the screen reader to focus on your headers, so they can go directly to the content that interest them.\
+If you don't use them correctly, your page might be offering a poor user experience and accesibility.
+
+### Paragraph
+Paragraph elements are used to add a group of sentences and sections of text to your html web document.
+
+The paragraph element is displayed as a block display element.\
+Also a space before and after the element will be added.\
+However, don't just use html elements to style your content!\
+Instead use CSS to add / change the styles added by the browser.\
+All the html tags must be used to add a meaning to your content.
+
+To add a paragraph in html, you can use the following tags:\
+`<p>...</p>`\
+The content (text) that you want to add, must be placed within the opening and closing tags!
+
+The text you add to your html web page, using a paragraph will start from left to right.\
+This is known as alignment, and you can change it using css!\
+You can change it by using the `align` attribute, but as it is obsolote for html5, it is a bad practice.
