@@ -225,3 +225,29 @@ It will fill the left space till there's no space left for more elements.
 
 To use the line break tag, use the following structure:\
 `<br>`
+
+### Blockquote
+The blockquote element is used to display a block of quoted text.\
+It will be rendered in a special way by default (indentation from left and right margins).
+
+To add this element to your web page, use the following structure:\
+`<blockquote>...</blockquote>`
+
+This element must not be used to style (indent) some content of your web.\
+Instead you can use other web technologies such as CSS to do so.\
+Remember that each tag has a semantic meaning and using it wrong, can affect your position on search engine result pages.
+
+### Phrase elements
+Phrase elements are tags that indicate the context and meaning of specific parts of a text.\
+These elements are displayed in line, which means it won't affect the structure of the content.
+
+Browsers will add some styles to these tags, but you must avoid using them to just style.\
+Keep in mind that you can change / customize the styles using css.
+
+#### abbr
+The `abbr` element stands for abbreviation.\
+You can use this tag to configure a title with the full name.\
+The user can see that full name for an abbreviation just by hovering the text.
+
+You must use the `title` attribute to configure the full name.\
+`<abbr title="HyperText Markup Language">HTML</abbr>`
