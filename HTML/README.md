@@ -282,6 +282,13 @@ Ordered lists can be organized by the use of:\
 - uppercase Roman numerals
 - lowercase Roman numerals
 
+You can choose the one you want to use, by using the `type` attribute.
+- numerals (default) -> `<ol type="1">...</ol>`
+- uppercase letters -> `<ol type="A">...</ol>`
+- lowercase letters -> `<ol type="a">...</ol>`
+- uppercase roman numerals -> `<ol type="I">...</ol>`
+- lowercase roman numerals -> `<ol type="i">...</ol>`
+
 Keep in mind that the ordered list element is displayed as a block element.\
 Also including a margin (space) before and after.\
 You can change / customize your own styles using css, so don't worry about vanilla styles!
