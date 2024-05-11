@@ -251,3 +251,9 @@ The user can see that full name for an abbreviation just by hovering the text.
 
 You must use the `title` attribute to configure the full name.\
 `<abbr title="HyperText Markup Language">HTML</abbr>`
+
+#### b
+Text has no extra importance.\
+Browser adds styles to the text.
+
+`<b>bold text</b>`
