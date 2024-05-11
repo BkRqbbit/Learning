@@ -269,3 +269,30 @@ In case you need to provide code samples, you can customize the styles using CSS
 This will offer a better experience for users navigating through your site.
 
 `<code>...</code>`
+
+### Ordered lists
+Lists are used to organize the information of your web page.\
+With ordered lists you can create a step-by-step guide in case you require to explain something.\
+Items will be displayed into a number or letter system to itemize them.
+
+Ordered lists can be organized by the use of:\
+- numerals
+- uppercase letters
+- lowercase letters
+- uppercase Roman numerals
+- lowercase Roman numerals
+
+Keep in mind that the ordered list element is displayed as a block element.\
+Also including a margin (space) before and after.\
+You can change / customize your own styles using css, so don't worry about vanilla styles!
+
+To add an ordered list to your html web content, use the following tags:\
+`<ol>...</ol>`\
+Consider that to add an item to the list, you must use the `li` tag inside the `ol` element.\
+As follows:\
+```html
+<ol>
+    <li>...</li>
+    <li>...</li>
+</ol>
+```
