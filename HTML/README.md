@@ -303,3 +303,9 @@ As follows:\
     <li>...</li>
 </ol>
 ```
+
+The `start` attribute is useful to specify the number you want to start from.\
+`<ol start="5">...</ol>`
+
+The `reversed` attribute allow you to reverse the order of items.\
+`<ol reversed>...</ol>`
