@@ -262,3 +262,10 @@ Browser adds styles to the text.
 The `cite` tag defines the title of a creative work such as a book, poem, song, movie, paint, sculpture, etc.\
 
 `<cite>...</cite>`
+
+#### code
+The `code` tag is used to define a piece of code to your html content.\
+In case you need to provide code samples, you can customize the styles using CSS\
+This will offer a better experience for users navigating through your site.
+
+`<code>...</code>`
