@@ -257,3 +257,8 @@ Text has no extra importance.\
 Browser adds styles to the text.
 
 `<b>bold text</b>`
+
+#### cite
+The `cite` tag defines the title of a creative work such as a book, poem, song, movie, paint, sculpture, etc.\
+
+`<cite>...</cite>`
