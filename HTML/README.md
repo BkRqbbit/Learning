@@ -348,3 +348,17 @@ When you use description lists, the code must seem something like this!\
     <dd>Description</dd>
 </dl>
 ```
+
+### Structural elements
+
+#### Div
+The `div` element has been used for many years to configure a generic structure or division of the content of the web.\
+They were used to separate the content and style them in different ways using CSS.
+
+To create a div element, use the `<div>...</div>` tags.\
+Place inside the content that you want to separate / categorize.
+
+In HTML5 new structural elements were added to style / separate common areas on your web.\
+It is recommended that you use them instead of using a div element.\
+Structural elements add meaning to your web that software technologies can understand.\
+While a div is generic and only developers can understand for different purposes.
