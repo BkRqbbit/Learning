@@ -362,3 +362,26 @@ In HTML5 new structural elements were added to style / separate common areas on 
 It is recommended that you use them instead of using a div element.\
 Structural elements add meaning to your web that software technologies can understand.\
 While a div is generic and only developers can understand for different purposes.
+
+#### Header
+To add a header section to your html web document, use the following tag structure!\
+`<header>...</header>`
+
+#### Nav
+It contains the section for navigation links.\
+Nav crates a block display element.\
+To create the nav element, use `<nav>...</nav>`
+
+#### Main 
+The main structural element is meant to contain all the content of your web page.\
+Keep in mind that you must just add one main element per page!
+
+It creates a block display section\
+To create the main section, use `<main>...</main>`
+
+#### Footer
+Contains the footer section of a web page.\
+It creates a block display element.
+
+To create it, use the following structure:\
+`<footer>...</footer>`
