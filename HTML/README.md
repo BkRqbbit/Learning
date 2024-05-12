@@ -309,3 +309,42 @@ The `start` attribute is useful to specify the number you want to start from.\
 
 The `reversed` attribute allow you to reverse the order of items.\
 `<ol reversed>...</ol>`
+
+### Unordered list
+An unordered list displays a list of items that does not have a order.\
+Browser will display a bullet, or list marker that you can change.
+
+To change the list marker, you can use the `type` attribute with the following values:\
+- disc (default)
+- square
+- circle
+
+You must avoid the use of the `type` attribute for the unordered list.\
+Just because it is visual change that can be made with a style technology.\
+Using that attribute is considered a bad practice for html5!
+
+To add an unordered list to your html content, use the following tag structure:\
+```html 
+<ul>
+    <li>...</li>
+    <li>...</li>
+</ul>
+```
+
+### Description list
+Description lists are useful for organizing terms and their descriptions.\
+The term will be on its own line, normally, while the description will be formatted with some indentation right below.
+
+Description lists are commonly used for the addition of FAQs to our web page content.
+
+To create a description list, use the tag `<dl>...</dl>`\
+To add an item, use `<dt>...</dt>`\
+And finally, to add the description, use `<dd>...</dd>`
+
+When you use description lists, the code must seem something like this!\
+```html
+<dl>
+    <dt>Term</dt>
+    <dd>Description</dd>
+</dl>
+```
