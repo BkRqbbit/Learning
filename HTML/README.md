@@ -385,3 +385,26 @@ It creates a block display element.
 
 To create it, use the following structure:\
 `<footer>...</footer>`
+
+### Anchor
+You can use an anchor element to specify a hyperlink to another resource inside or outside the web.\
+A hyperlink is a link that refers to another resource that can be accessed by visitors.
+
+To add a anchor element to your html content, use the following structure:\
+`<a>...</a>`
+
+The text that goes in between the opening and closing tags, is the text to click!
+
+To specify the hyperlink reference (resource to access), you can use the `href` attribute.\
+`<a href="...">...</a>`\
+The value of the attribute, must be the URL of the resource.
+
+Most browsers will style anchor elements by default, but keep in mind that you can change it with css.\
+Anchor will be color blue, underlined, and the cursor will change while you keep it over the anchor element.
+
+When you need to link to external resources, use absolute hyperlinks.\
+When the resource is in the same server, you can use relative hyperlinks.
+
+The anchor tag is useful to add a way of navigation between web pages in a website.\
+User just need to click a text or any other element to be directed to another resource that shows different information.\
+You can do this to separate the content of your site in a more organized manner.
