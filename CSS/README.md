@@ -44,6 +44,15 @@ Style sheets files are composed of style rules that describe the styles to apply
 The declaration indicates the CSS property to apply, and the value we want to use.\
 The structure is as follows: `property: value;`
 
+When you want to add multiple rules to a single selector, you can do it by using the semicolon character (;)
+
+```css
+body{
+    background-color: aqua;
+    color: red;
+}
+```
+
 ## CSS Properties
 
 ### background-color
