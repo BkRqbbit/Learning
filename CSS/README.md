@@ -30,3 +30,27 @@ All the css rules are only applied to those elements inside the html document.
 External styles are coded in a completely separate file. (.css extension)\
 You can link your html document with css styles by using the `link` tag inside the head section.\
 This style sheet can be linked (applied) to as many html documents as you want.
+
+## Selectors
+Each style rule is divided into two main parts: selector and declaration.\
+Selectors are used to specify to the browser the element that we want to modify!
+
+The selector can be an HTML element name, a class name, or an id name.\
+The more you learn about CSS, you will find that there are more complex selectors that can be used for specific actions.
+
+## Declarations
+Style sheets files are composed of style rules that describe the styles to apply and the element to modify.
+
+The declaration indicates the CSS property to apply, and the value we want to use.\
+The structure is as follows: `property: value;`
+
+## CSS Properties
+
+### background-color
+The `background-color` property configures the background color of the element we specify.
+
+```css
+body{
+    background-color: yellow;
+}
+```
