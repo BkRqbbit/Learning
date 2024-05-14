@@ -54,3 +54,12 @@ body{
     background-color: yellow;
 }
 ```
+
+### color
+The `color` property of CSS allows you to change the text color of an html element.
+
+```css
+body{
+    color: white;
+}
+```
