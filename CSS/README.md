@@ -72,3 +72,12 @@ body{
     color: white;
 }
 ```
+
+### font-family
+The `font-family` property is used to change the typography used on your website.
+
+```css
+body{
+    font-family: monospace;
+}
+```
