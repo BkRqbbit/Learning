@@ -86,6 +86,10 @@ It can be a problem when you have a custom web page, and the font that you want 
 To prevent this from happen, you can create a back up plan.\
 That is to add a list of fonts to use, if the first is not available, the browser will try with the second one.
 
+There will be occasions when the name of a font will be more than a single word, that means it will include spaces.\
+If you just add it, CSS will think it is a list of different fonts that does not exist (or could).\
+To add the name of a font with spaces, try using quotation marks as follows: `body{font-family: "Times New Roman";}`
+
 ```css
 body{
     font-family: monospace;
