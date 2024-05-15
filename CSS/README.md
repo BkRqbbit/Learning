@@ -81,3 +81,12 @@ body{
     font-family: monospace;
 }
 ```
+
+### font-size
+The `font-size` property allows you to change the size of the text inside the html element that you use as a selector.
+
+```css
+body{
+    font-size: 10px;
+}
+```
