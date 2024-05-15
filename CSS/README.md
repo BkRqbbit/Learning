@@ -38,6 +38,10 @@ Selectors are used to specify to the browser the element that we want to modify!
 The selector can be an HTML element name, a class name, or an id name.\
 The more you learn about CSS, you will find that there are more complex selectors that can be used for specific actions.
 
+You can apply CSS rules to multiple selectors at the same time.\
+Just place a comma between them, and the magic will happen\
+`h1, h2, h3 {...}`
+
 ## Declarations
 Style sheets files are composed of style rules that describe the styles to apply and the element to modify.
 
