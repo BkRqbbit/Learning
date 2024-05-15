@@ -76,6 +76,12 @@ body{
 ### font-family
 The `font-family` property is used to change the typography used on your website.
 
+A web browser displays the text using the fonts that have been installed on the user's computer.\
+It can be a problem when you have a custom web page, and the font that you want to use is not installed on the user's computer, because another font will be used which can create unexpected errors.
+
+To prevent this from happen, you can create a back up plan.\
+That is to add a list of fonts to use, if the first is not available, the browser will try with the second one.
+
 ```css
 body{
     font-family: monospace;
