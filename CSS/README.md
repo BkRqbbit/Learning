@@ -90,6 +90,25 @@ There will be occasions when the name of a font will be more than a single word,
 If you just add it, CSS will think it is a list of different fonts that does not exist (or could).\
 To add the name of a font with spaces, try using quotation marks as follows: `body{font-family: "Times New Roman";}`
 
+Using special fonts for your web page could be problematic, and forced for many years to web designers to use general fonts, until CSS3 added a feature that solved that problem!\
+That is the `@font-face` feature.
+
+To use this feature, you must provide the URL of the font file, here an example that you can use!\ 
+```css
+@font-face{
+    font-family: MyAwesomeFont;
+    src: url(myAwesomeFont.woff) format("woff");
+}
+```
+
+After using the previous rule on your CSS document, you can now add the specified font to your html elements as any other font you might been using.\
+```css
+body{
+    font-family: MyAwesomeFont;
+}
+``` 
+
+
 ```css
 body{
     font-family: monospace;
