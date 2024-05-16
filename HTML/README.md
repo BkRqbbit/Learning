@@ -270,6 +270,30 @@ This will offer a better experience for users navigating through your site.
 
 `<code>...</code>`
 
+#### dfn
+This tag is used as a definition element, which specifies the meaning of a term being used in the content of our HTML content.\
+Consider that the closest tag must contain the definition of the term.
+
+```html
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+```
+
+```html
+<p>
+    <dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages.
+</p>
+```
+
+```html
+<p>
+    <dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> is the stardard markup language for creating web pages
+</p>
+```
+
+The use of the `dfn` tag will make browsers to style the text with italics.\
+You must not use this tag to style your html content, instead use CSS.\
+Also, you can change the styles as you prefer using CSS.
+
 ### Ordered lists
 Lists are used to organize the information of your web page.\
 With ordered lists you can create a step-by-step guide in case you require to explain something.\
