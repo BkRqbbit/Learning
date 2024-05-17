@@ -54,3 +54,35 @@ Ex:
 ```js
 window.alert("Hello, World!");
 ```
+
+## Comments
+Comments in JavaScript are intended to be notes to the person reading the code.\
+It can be you, a member of your team, or any person around the world that may have access to the source code.
+
+Comments will produce no visual or modification results.\
+In fact, browsers will just ignore comments in the code you write.\
+It means that you can write anything that you want.\
+Event if it breaks javascript syntax rules.
+
+There are two types of comments:
+- single line comment
+- multi line comment
+
+Each time you want to add a single line comment, use `//` at the beginning of the line, everything that goes after it, is considered as a comment.
+
+To declare a multi-line comment, use `/*` at the beginning of the comment, and add `*/` at the end of the comment.
+
+Example of single line comment:
+```js
+// This is a single line comment
+// Here is another single line comment
+```
+
+Example of multi-line comment
+```js
+/*
+    This is a multi-line comment
+    You can use this to add large pieces of text to your code
+    With no worry of creating hundreds of single line comments!
+*/
+```
