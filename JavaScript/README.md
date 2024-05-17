@@ -37,3 +37,20 @@ Adding the javascript file at the end of the html content:
     </body>
 </html>
 ```
+
+## Console log
+You can use the instruction `console.log()` to display any string that you want in the dev tools of the browser.
+
+Ex:
+```js
+console.log("Hello, World!");
+```
+
+## Alert
+You can use the instruction `window.alert()` to display a pop up alert.\
+You can add any message / string that you want.
+
+Ex:
+```js
+window.alert("Hello, World!");
+```
