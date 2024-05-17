@@ -87,6 +87,31 @@ Example of multi-line comment
 */
 ```
 
+## Variables
+A variable in programming is like a container that stores some information that can be used later in the program.\
+A benefit of using variables is that we can use meaningfull names instead of fixed numbers that can be confusing to other people
+
+There are two steps to create a variable:
+- Declaration
+- Assignment
+
+When we declare a variable, we are telling the computer to reserve some memory to store our data in there.\
+The moment we assign our variable, we are telling what to store in that memory space.
+
+To declare a variable, we need to use the keyword and a unique name.\
+Ex: `let age;`
+
+To assign a variable, we must use the equals symbol `=` and then the value to store.\
+Ex: `age = 18;`
+
+Now to print the value of the variable, we can do it as follows:\
+`console.log( age );`\
+
+You can do both declaration and assignment in case you know what the value to store is:\
+`let age = 18;`
+
+But if you don't actually know what the value to store is, you can declare the variable, and assign a value to it later in the program!
+
 ## getElementById
 The `getElementById` method, returns an object representing the html element that matches the `id` specified.\
 Ids are required to be unique, it is useful when you want to access to a specific element of your web page.
