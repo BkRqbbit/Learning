@@ -16,3 +16,24 @@ You can either use the default one that is pre-installed on your computer, or th
 
 The tools that you need to start programming in JavaScript are mostly already installed on your computer.\
 So you might not have any prior problem to start programming some JS programs.
+
+## Add JavaScript file to your web
+In order to add a JavaScript file, you need to use the `<script>...</script>` tag in your html content.
+
+You must use the attribute `scr` to specify where the file is located, so the web page can include the code and execute it.
+
+Ex: `<script src="index.js"></script>`
+
+Consider adding your javascript files at the end of the html source code, but inside the `body` tag, so in case any error is present, your html code will still be rendered by the browser and users don't just see a blank screen.
+
+Adding the javascript file at the end of the html content:
+```html
+<!DOCTYPE html>
+<html>
+    <head>...</head>
+    <body>
+        ...
+        <script src="index.js"></script>
+    </body>
+</html>
+```
