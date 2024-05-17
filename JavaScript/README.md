@@ -86,3 +86,24 @@ Example of multi-line comment
     With no worry of creating hundreds of single line comments!
 */
 ```
+
+## getElementById
+The `getElementById` method, returns an object representing the html element that matches the `id` specified.\
+Ids are required to be unique, it is useful when you want to access to a specific element of your web page.
+
+Ex: Selecting an element by id\
+`getElementById(id);`\
+`getElementById("wrapper");`
+
+You must be aware of writing the name of the method correctly.\
+It is case sensitive and if you write it wrong, it won't work properly.\
+You text editor or IDE must help you in case it has syntax suggestion features.\
+But if it is not the case, pay attention to it.
+
+The way you write the id of the html element you want to select, must be writen correclty (it is case sensitive as well), so doint it incorrectly may result in the code not working, or generating unexpected results.
+
+If the html element was not found (id does not exist, or it was writen incorrectly), the method will return `null`.\
+Otherwise it will return an element object. 
+
+Another crucial point to keep in mind, is that in order to access the element, it must be present into the document.\
+It means that if the element is dynamically added, it must be created first in order to access it, otherwise it will return a null value.
