@@ -112,6 +112,148 @@ You can do both declaration and assignment in case you know what the value to st
 
 But if you don't actually know what the value to store is, you can declare the variable, and assign a value to it later in the program!
 
+## Arithmetic Operators
+Arithmetic Operations allows us to perform mathematical calculations if needed.\
+It is useful to manipulate the information that our program is intended to handle.
+
+It is important to keep in mind the following concepts:
+- Operands (values, variables, etc)
+- Operators (+, -, *, /)
+
+### Addition
+The addition operator allows us to add a value to another value.\
+Ex: `students = 30 + 1`
+
+### Substraction
+The substraction symbol is represented by the following symbol: `-`\
+It is used to reduce a value from another value.\
+Ex: `students = students - 5;`
+
+### Multiplication
+The multiplication operation is represented by the following symbol: `*`\
+It performs a multiplication between the numbers `x` and `y`.\
+Ex: `let result = 5 * 8;`
+
+### Division
+The division operation will be represented with the following symbol: `/`\
+It performs a division between `x` and `y` numbers.\
+Ex: `let result = 10 / 2;`
+
+### Exponents
+The operation of exponents is represented with the following symbols: `**`\
+The first value is the base, and the second is the exponent.\
+Let's say, the following operation `2 ** 3` is equals to 8.
+
+### Modulo
+The modulo operation is represented by the following symbol: `%`.\
+It is the reminder of any division you calculate.\
+Ex: `let result = 11 % 5;`
+
+### Augmented assignment operators
+When you have a variable value and want to update it using arithmetic operators, you must do something like this:\
+```js
+    let students = 30;
+    students = students + 10;
+```
+
+The problem with it is that it can be a little tedious to write the variable name multiple times, so that's why augmented assignment operators exist!
+
+You can write the previous code, as follows:\
+```js
+    let students = 30;
+    students += 10;
+```
+
+At the beginning it can be tricky to understand, but when you have some practice, it will become faster to write and understand what it does!
+
+Keep in mind that this work with all the previous operators!
+
+```js
+    let students = 30;
+
+    students += 10;
+    students -= 10;
+    students *= 2;
+    students /= 2;
+    students %= 2;
+    students **= 2;
+```
+
+### Increase and decrease a variable value
+There is a shorter way to increase / decrease the value of a variable by 1\
+Keep in mind that it only works by one, in case you want to use another value, use the previous method seen.
+
+```js
+    // Increase
+    let age = 18;
+    age++;
+```
+
+```js
+    // Decrease
+    let age = 18;
+    age--;
+```
+
+You can use it as a prefix, or postfix\
+The prefix goes before the variable name (++age).\
+The postfix goes after the variable name (age++).
+
+It works exactly the same way, with the difference that when you are performing complex operations, how you position this operand is important!\
+
+Operand as a prefix: Increase the value, and returns it.\
+You can work directly with the new modified value.
+
+Operand as a postfix: First return the value, and then increase it!\
+This means you first work with the pre-modified version, and then it is increased.
+
+```js
+    // As this will first increase the value and the perform the 
+    // comparation, age is now 18 so you are allowed!
+    let age = 17;
+
+    if( ++age >= 18 ){
+        console.log(`Hello, you are ${age} years old!`);
+    }
+```
+
+```js
+    // Now, if we use it as a postfix operator, the condition will not be true.
+    let age = 17;
+
+    if( age++ >= 18 ){
+        console.log("This message won't be displayed!");
+    }
+    else{
+        console.log("You used a postfix operator!");
+    }
+```
+
+### Operator precedence
+There will be times where we have a set of complex operations, and knowing exactly how they will be executed, will prevent unexpected behaviours.
+
+Operator precedence:
+- Parenthesis ()
+- Exponents **
+- Multiplication, division, and modulo *, /, %
+- Addition, Substraction +, -
+
+Also, keep in mind that the operations will be performed from left, to right!
+
+```js
+    let result = (5 + 7)/2;
+    // Here, based on the precedence, you can say that the operation that 
+    // contains parenthesis will be solved first, and replaced by the result.
+    // (5 + 7) = 12
+    // Now the operation looks like this: 12 / 2 
+    // Finally, 12/ 2 = 6;
+```
+
+This theory is not that complicated, but it is recommended that you practice with different operations by writing them on a paper and solving them considering the precedence table shown above.\
+Then you can execute the code and see if you get the same result.\
+Do this until you feel confortable with the arithmetical operations and their precedence.
+
+
 ## getElementById
 The `getElementById` method, returns an object representing the html element that matches the `id` specified.\
 Ids are required to be unique, it is useful when you want to access to a specific element of your web page.
