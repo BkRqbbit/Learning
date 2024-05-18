@@ -253,6 +253,28 @@ This theory is not that complicated, but it is recommended that you practice wit
 Then you can execute the code and see if you get the same result.\
 Do this until you feel confortable with the arithmetical operations and their precedence.
 
+## User input
+Most of the time, the data that our program will work with, we dont actually know what it is.\
+It will depend on the user, the type of information they want to be processed, so it's a good idea to know how to get user data!
+
+### window.prompt()
+This method allows you to create a pop up to display a message to the user.\
+Also, allowing the user to input some data.\
+That data can be stored using variables, and then manipulated!
+
+Be aware when using this method to read numbers!\
+This function will return a string, and may cause unexpected errors!\
+To convert a string to a number, add `Number()` and that's it.\
+Ex: `let x = Number(window.prompt("Enter the value of x: "));`
+
+To validate the previous statement, you can execute the following code
+```js
+    let username = window.prompt("Enter your username: ");
+    console.log( typeof username );
+```
+
+The code will print `string` on the console.\
+Which means, no matter what you put in there, it will be considered a string!
 
 ## getElementById
 The `getElementById` method, returns an object representing the html element that matches the `id` specified.\
