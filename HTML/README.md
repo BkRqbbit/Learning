@@ -444,3 +444,15 @@ When the resource is in the same server, you can use relative hyperlinks.
 The anchor tag is useful to add a way of navigation between web pages in a website.\
 User just need to click a text or any other element to be directed to another resource that shows different information.\
 You can do this to separate the content of your site in a more organized manner.
+
+### Special characters
+There will be special situations when you will need to use characters that may have another purpose and may cause problems within the content of your web page document.\
+Also symbols that are not available on your keyboard, and might not be possible to use!
+
+Some of these symbols are `quotation marks`, `greater-than`, `lower-than`, `copyright`, and so on.\
+These symbols are called `entity characters`.
+
+In order to be able to use these special symbols on your web page content, you must use the following format: `&{code}`\
+You just need to replace the `{code}` with a code specified by html.
+
+When the content is being rendered by the browser, it will replace the notation for the special character itself without causing any trouble on your code.
