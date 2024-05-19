@@ -294,6 +294,18 @@ The use of the `dfn` tag will make browsers to style the text with italics.\
 You must not use this tag to style your html content, instead use CSS.\
 Also, you can change the styles as you prefer using CSS.
 
+#### em
+The `em` html element, marks text that has stress emphasis.\
+This tag is often limited to a word or words of a sentence.
+
+Browsers add a default style to this element, which is italics.\
+But keep in mind that you must avoid using html elements to style your webpage.\
+Instead do it with CSS!
+
+```html
+<p>Get out of bed <em>now</em>!</p>
+```
+
 ### Ordered lists
 Lists are used to organize the information of your web page.\
 With ordered lists you can create a step-by-step guide in case you require to explain something.\
