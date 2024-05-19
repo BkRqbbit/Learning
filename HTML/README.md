@@ -456,3 +456,18 @@ In order to be able to use these special symbols on your web page content, you m
 You just need to replace the `{code}` with a code specified by html.
 
 When the content is being rendered by the browser, it will replace the notation for the special character itself without causing any trouble on your code.
+
+### E-Mail Hyperlinks
+The `a` (anchor) element can be used to create e-mail hyperlinks.
+
+An e-mail hyperlink when clicked will launch the default application configured to send emails, and put the default values specified such as the recipiend.\
+That way it is easier for the user to send an e-mail.
+
+Instead of adding the url to redirect, you must use the following structure:\
+`<a href="mailto:email@email.com">Send an email!</a>`
+
+Consider that a good practice, is to place the email both in the attribute, and as the text to show!\
+This is because not everybody has their default application configured, so if it is the case, user can just copy the email, and open their prefered email software.
+
+It must look something like this:\
+`<a href="support@email.com">support@email.com</a>`
