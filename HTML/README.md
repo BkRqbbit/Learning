@@ -174,6 +174,27 @@ You can add paragraphs with the `<p>...</p>`
 
 ## HTML Elements
 
+### link
+The `link` html element specifies a relationship between the current web document, and an external resource that we specify.\
+This element is commonly used for style sheet, but it has more usages!\
+You can stablish a favicon (site icon).
+
+Keep in mind that this tag must be placed within the `head` section.\
+It does not add visual content, its to add some specifications for the browser (meta data) that the user may not see directly.
+
+Ex: Add a style sheet
+```html
+    <link rel="stylesheet" href="assets/css/styles.css">
+```
+
+You use the `rel` attribute to specify the type of relation between both documents.\
+And the `href` to specify the location of the resource.
+
+Ex: Add an icon to the website
+```html
+   <link rel="icon" href="assets/favicon.ico"> 
+```
+
 ### Headings
 When you use the heading elements in your html code, browsers will add some default styles, but you must not pay attention to them.\
 The goal of html elements is not to add styles, but to format the content in a way software technologies does understand to optimize them and offer a better user experience while surfing on the web.
@@ -326,6 +347,22 @@ The element `i` can be used for the following situations:
 - Technical terms
 - Transliterations
 - Thoughts
+
+#### kbd
+The `kbd` element is known as the `Keyboard Input` element.\
+This element is used to denote a textual entry from a keyboard.\
+Can be used to give instructions, or specify how to perform an action.
+
+```html
+    <p>Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render an MDN page.</p>
+```
+
+Browsers will style it by default, but you can change the styles using CSS!
+
+Ex: Usage of `kbd` element.
+```html
+    <p>Use the command <kbd>help mycommand</kbd> to view documentation for the command "mycommand"</p>
+```
 
 ### Ordered lists
 Lists are used to organize the information of your web page.\
