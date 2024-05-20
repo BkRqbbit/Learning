@@ -306,6 +306,27 @@ Instead do it with CSS!
 <p>Get out of bed <em>now</em>!</p>
 ```
 
+#### i
+The idiomatic text element `i`.\
+This element is used when a text needs to be set off from the normal text.\
+It could be an idiomatic text, technical terms, taxonomical designations, etc.
+
+```html
+    <p>I looked at it and thought <i> This can't be real!</i></p>
+```
+
+```html
+    <p>She wondered, <i>What is this writer talking about, anyway?</i></p>
+```
+
+The element `i` can be used for the following situations:
+- Alternate voice or mood
+- Taxonomic designations
+- Idiomatic terms from another language
+- Technical terms
+- Transliterations
+- Thoughts
+
 ### Ordered lists
 Lists are used to organize the information of your web page.\
 With ordered lists you can create a step-by-step guide in case you require to explain something.\
