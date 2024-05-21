@@ -53,6 +53,15 @@ To indicate to CSS that you are styling a class, use a dot before the name of th
 Good thing, is that a class can be added to any element, so your styles too.\
 Just make sure that the element is compatible!
 
+### Id Selector
+First, keep in mind that html rules that each id must be unique.\
+This means that an id is just for a single html element on the hole page.
+
+So you can use the `id` selector to apply css styles to a single element.
+
+To indicate to CSS that you are using an id as a selector, you must place the symbol `hash` (#) before the name of the id.\
+`#id-name{...}`
+
 ## Declarations
 Style sheets files are composed of style rules that describe the styles to apply and the element to modify.
 
