@@ -42,6 +42,17 @@ You can apply CSS rules to multiple selectors at the same time.\
 Just place a comma between them, and the magic will happen\
 `h1, h2, h3 {...}`
 
+### Class Selector
+You can use a class selector in css when you need to apply the same css rule to multiple elements, that are not necessarily the same html element, for example, just style paragraphs.\
+Or you can use this to style a couple of html elements, and not all of them!
+
+When you style a class, use the class-name as the selector.\
+To indicate to CSS that you are styling a class, use a dot before the name of the class, as follows:\
+`.class-name{...}`
+
+Good thing, is that a class can be added to any element, so your styles too.\
+Just make sure that the element is compatible!
+
 ## Declarations
 Style sheets files are composed of style rules that describe the styles to apply and the element to modify.
 
