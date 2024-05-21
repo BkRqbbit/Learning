@@ -1,0 +1,24 @@
+body{
+    background-color: #EEF7FF;
+    font-family: Verdana;
+}
+
+h1{
+    background-color: #4D869C;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    background-color: #7AB2B2;
+    color: #4D869C;
+    padding: 10px;
+}
+
+li{
+    color: #4D869C;
+}
+
+.feature{
+    color: red;
+}
