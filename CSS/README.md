@@ -62,6 +62,16 @@ So you can use the `id` selector to apply css styles to a single element.
 To indicate to CSS that you are using an id as a selector, you must place the symbol `hash` (#) before the name of the id.\
 `#id-name{...}`
 
+### Descendant Selector
+This kind of selector is used to apply styles to an element, depending on the context of its container.\
+That means, that if you only want to apply a style to a `p` element inside of a div, you can do it by using the descendant selector.
+
+This can be used to reduce the number of classes and ids on your web page.
+
+To specify an element, first add the container selector, and then the element selector.\
+They must be separated with a space.\
+Ex: `footer a{...}`
+
 ## Declarations
 Style sheets files are composed of style rules that describe the styles to apply and the element to modify.
 
