@@ -457,6 +457,19 @@ It is recommended that you use them instead of using a div element.\
 Structural elements add meaning to your web that software technologies can understand.\
 While a div is generic and only developers can understand for different purposes.
 
+#### span
+The `span` element defines a section on a web page that is not separated from the content areas around.\
+It is an inline display element.\
+You can use it to style the content of an area that is contained within another tag. 
+
+To create a `span` element, use the tags `<span>...</span>`.
+
+```html
+    <p>Add the <span class="ingredient">basil</span>, <span class="ingredient">pine nuts</span> and <span class="ingredient">garlic</span> to a blender and blend into a paste.</p>
+    
+    <p>Gradually add the <span class="ingredient">olive oil</span> while running the blender slowly.</p>
+```
+
 #### Header
 To add a header section to your html web document, use the following tag structure!\
 `<header>...</header>`
