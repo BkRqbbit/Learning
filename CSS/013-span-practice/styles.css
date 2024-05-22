@@ -1,0 +1,39 @@
+body{
+    background-color: #e6e6fa;
+    color: #191970;
+}
+
+h1{
+    background-color: #191970;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    background-color: #aeaed4;
+    color: #191970;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a{
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+}
+
+ul li{
+    font-weight: bold;
+}
+
+footer p{
+    font-style: italic;
+}
+
+.feature{
+    color: red;
+}
+
+.company-name{
+    font-weight: bold;
+}
