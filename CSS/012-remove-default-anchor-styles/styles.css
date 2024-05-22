@@ -1,0 +1,35 @@
+body{
+    background-color: #e6e6fa;
+    font-family: Verdana;
+}
+
+h1{
+    background-color: #191970;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    background-color: #aeaed4;
+    color: #191970;
+    text-align: center;
+}
+
+.feature{
+    color: red;
+}
+
+ul li{
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 7px;
+}
+
+footer p{
+    color: #333;
+    font-style: italic;
+}
