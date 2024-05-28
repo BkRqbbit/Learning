@@ -542,3 +542,36 @@ This is because not everybody has their default application configured, so if it
 
 It must look something like this:\
 `<a href="support@email.com">support@email.com</a>`
+
+### Mark
+The `mark` text element is represented with the `<mark>...</mark>` tags.\
+It is used to mark or highlight some text, depending on the needs for the content of the website.
+
+Example of use:
+```html
+    <p>Search results for "salamander":</p>
+    <hr>
+    <p>Several species of <mark>salamander</mark> inhabit the temperate rainforest of the Pacific Northwest.</p>
+    <p>Most <mark>salamander</mark>s are nocturnal, and hunnt for insects, worms, and other small creatures.</p>
+```
+
+When the `mark` element is used inside of a quote, it denotes that the highlighted content is of special interest for the reader, but it is not marked in the original source material.\
+Think of this element like using a highlighter pen in a book to mark passages that you find interesting.\
+Once you leave the marks, other readers may see what you highlighted.
+
+Keep in mind that you might not use the `mark` element for styling purposes!\
+Using this element changes the meaning of the web, instead use the `span` element and CSS.
+
+Example: Mark a piece of text that might be important for the user.
+```html
+    <blockquote>
+        It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, <mark>Rebel spies managed to steal secret plans</mark> to the Empire's ultimate weapon, the DEATH STAR, an armored space station with wnough power to destroy an entire planet.
+    </blockquote>
+```
+
+Example: Here the `mark` element is used to mark search result coincidence within a passage.
+```html
+    <p>It is a dark time for the Rebellion. Although the Death Star has been destroyed, <mark class="match">Imperial</mark> troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.</p>
+
+    <p>Evading the dreaded <mark class="match">Imperial</mark> Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.</p>
+```
