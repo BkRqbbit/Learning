@@ -1,0 +1,66 @@
+:root{
+    --light-blue: #e6e6fa;
+    --blue: #aeaed4;
+    --dark-blue: #191970;
+}
+
+body{
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1{
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+    line-height: 200%;
+    font-family: Georgia, "Times New Roman", serif;
+    text-indent: 1em;
+    text-shadow: 3px 3px 5px #CCC;
+}
+
+h2{
+    background-color: var(--blue);
+    color: var(--light-blue);
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+nav{
+    font-weight: bold;
+    word-spacing: 1em;
+    font-size: 1.25em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+p{
+    font-size: .90em;
+}
+
+ul{
+    font-weight: bold;
+}
+
+footer{
+    color: #333;
+    font-size: .70em;
+    font-style: italic;
+}
+
+#wrapper{
+    margin: auto;
+    width: 80%;
+}
+
+.feature{
+    color: #C70000;
+}
+
+.company-name{
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+}
