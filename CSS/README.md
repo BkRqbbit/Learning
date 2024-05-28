@@ -153,3 +153,47 @@ body{
     font-size: 10px;
 }
 ```
+
+## Variables
+Variables in CSS are also know as custom properties.\
+They allow you to increase your efficiency as developer.\
+Also reduce code duplication!
+
+CSS Variables are entities defined by CSS Developers that represent specific values to be used multiple times throughout the web document styles.
+
+You must declare the variables in the `root` element.
+
+```css
+:root{
+    --your-name: css-value;
+}
+```
+
+The selector you use to declare your css variables, will define its scope (where it can be used).\
+So that's why it's common to declare them in the root element.\
+This way we can access them globally.
+
+You can define your variables in a scope where you want to use them.\
+Also redefine their value just for an element.
+
+Once you specify the root element as the specifier, you must follow a specify format!\
+It is, first the name of the property you want to use, and then the css value you assign to it.
+
+To use the property you defined, you must use the `var` function.
+
+```css
+:root{
+    --text-color: blue;
+}
+
+body{
+    color: var(--text-color);
+}
+```
+
+You may not see the benefits of using CSS rules on small sites.\
+It's preferable to use on large scale websites.\
+They solve the same problem a program might have with constant values.\
+That is, the moment when you want to change a value, you must search each coincidence and replace it with a new value, but by using variables, you just need to change the value where it is assigned.
+
+Consider that using css variables may improve the readability and maintenance of your source code!
