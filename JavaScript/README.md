@@ -296,3 +296,13 @@ Otherwise it will return an element object.
 
 Another crucial point to keep in mind, is that in order to access the element, it must be present into the document.\
 It means that if the element is dynamically added, it must be created first in order to access it, otherwise it will return a null value.
+
+## Type convertion
+It is the process of converting the data type of a value, to another data type.\
+It is useful when we want to manipulate some data our program stores.
+
+For example, when we read user input, data is stored as string.\
+So if we read a number, we cannot apply the corresponding operations and unexpected results might appear.
+
+We can convert any value from a type to another.\
+string, numbers, booleans, etc.
