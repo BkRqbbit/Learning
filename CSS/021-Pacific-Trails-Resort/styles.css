@@ -1,0 +1,46 @@
+:root{
+	--black: #000033;
+	--blue: #3399CC;
+	--light-blue: 90C7E3;
+	--dark-blue: #5C7FA3;
+	--gray: #666666;
+}
+
+body{
+	font-family: Verdana, Arial, sans-serif;
+	color: var(--gray);
+}
+
+header{
+	background-color: var(--black);
+	color: white;
+}
+
+h1{
+	line-height: 200%;
+	text-align: center;
+}
+
+h2{
+	color: var(--blue);
+}
+
+dt{
+	color: var(--black);
+	font-weight: bold;
+}
+
+footer{
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#wrapper{
+	margin: auto;
+	width: 90%;
+}
+
+.company-name{
+	font-weight: bold;
+	font-size: 1.2em;
+}
