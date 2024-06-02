@@ -1,0 +1,43 @@
+:root{
+    --white: #FFFFFF;
+    --gray: #F0F0F0;
+    --light-blue: #AEC3E3;
+    --blue: #5280C5;
+    --dark-blue: #003366;
+}
+
+body{
+    color: var(--dark-blue);
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+}
+
+h1{
+    line-height: 200%;
+    text-align: center;
+}
+
+nav a{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+dt{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+footer{
+    font-size: .75em;
+    font-style: italic;
+}
+
+#wrapper{
+    background-color: var(--gray);
+    margin: auto;
+    width: 90%;
+}
