@@ -1,0 +1,9 @@
+#full-form{
+    border-width: 3px;
+    border-style: dotted;
+    border-color: #000;
+}
+
+#short-hand{
+    border: 3px dotted #000;
+}
