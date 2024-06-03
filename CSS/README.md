@@ -181,6 +181,10 @@ The following values are the ones you can use:
 - dashed
 - dotted
 
+### padding
+The `padding` property configures the space between the content of an html element, and the border.\
+You must consider that the padding is set to 0 by default.
+
 ## Variables
 Variables in CSS are also know as custom properties.\
 They allow you to increase your efficiency as developer.\
