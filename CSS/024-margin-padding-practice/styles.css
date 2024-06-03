@@ -1,0 +1,45 @@
+:root{
+    --light-blue: #e6e6fa;
+    --blue: #aeaed4;
+    --dark-blue: #191970;
+}
+
+body{
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: var(--dark-blue);
+    color: white;
+    text-align: center;
+}
+
+h1{
+    padding: 1em;
+}
+
+nav{
+    word-spacing: 15px;
+}
+
+h2{
+    background-color: var(--blue);
+    border-bottom: 2px dashed var(--dark-blue);
+    text-align: center;
+}
+
+ul li{
+    font-weight: bold;
+}
+
+hr{
+    opacity: 40%;
+}
+
+footer{
+    font-size: .8em;
+    font-style: italic;
+    text-align: center;
+}
