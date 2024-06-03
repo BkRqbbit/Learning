@@ -1,0 +1,31 @@
+#inset{
+    border: inset;
+}
+
+#outset{
+    border: outset;
+}
+
+#double{
+    border: double;
+}
+
+#groove{
+    border: groove;
+}
+
+#ridge{
+    border: ridge;
+}
+
+#solid{
+    border: solid;
+}
+
+#dashed{
+    border: dashed;
+}
+
+#dotted{
+    border: dotted;
+}
