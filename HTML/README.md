@@ -364,6 +364,13 @@ Ex: Usage of `kbd` element.
     <p>Use the command <kbd>help mycommand</kbd> to view documentation for the command "mycommand"</p>
 ```
 
+#### samp
+The `samp` html element is used to specify content that must be interpreted as the output from a computer program.\
+Consider that the browser will add some default styles, that you can change with CSS.
+
+It can be used in technical websites. To add a more meaningful content.\
+It was designed mainly for technical documentation.
+
 ### Ordered lists
 Lists are used to organize the information of your web page.\
 With ordered lists you can create a step-by-step guide in case you require to explain something.\
