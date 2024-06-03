@@ -154,6 +154,33 @@ body{
 }
 ```
 
+### border
+The `border` property sets an element border.\
+It is the boundary around an html element.\
+It is the shorthand for multiple css properties that can be used to define the border of an element.\
+Those elements are: 
+- border-width
+- border-style
+- border-color
+
+Keep in mind that when the style for a border is not defined, it will be invisible.\
+Also, the border width is 0 by default, so it won't display.
+
+You can configure all the borders at once, of configure them separately.\
+There are css properties for the top, right, bottom, and left borders.
+
+#### border-style
+The `border-style` CSS property configures the type of line displayed in the border.\
+The following values are the ones you can use:
+- inset
+- outset
+- double
+- groove
+- ridge
+- solid
+- dashed
+- dotted
+
 ## Variables
 Variables in CSS are also know as custom properties.\
 They allow you to increase your efficiency as developer.\
