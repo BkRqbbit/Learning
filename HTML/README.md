@@ -582,3 +582,25 @@ Example: Here the `mark` element is used to mark search result coincidence withi
 
     <p>Evading the dreaded <mark class="match">Imperial</mark> Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.</p>
 ```
+
+### small
+The `small` element defines a smaller text.\
+It can be used for legal disclaimers or notices.\
+Also for copyright text, and side-comments.
+
+This html element is not considered as deprecated.\
+But a similar result might be achieved with CSS.
+
+```html
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+```
+
+Ex: Showing some legal information
+```html
+<p>MDN Web Docs is a learning platform for Web technologies and the software that powers the Web.</p>
+
+<hr>
+
+<p><small>The content is licensed under a Creative Commons Attribution-ShareAlike 2.5 Generic Licence.</small></p>
+```
