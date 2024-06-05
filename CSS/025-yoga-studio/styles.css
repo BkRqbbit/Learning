@@ -29,6 +29,10 @@ nav a{
     text-decoration: none;
 }
 
+dt{
+    font-weight: bold;
+}
+
 footer{
     background-color: var(--green);
     font-style: italic;
