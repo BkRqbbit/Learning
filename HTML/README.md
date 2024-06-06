@@ -258,6 +258,21 @@ This element must not be used to style (indent) some content of your web.\
 Instead you can use other web technologies such as CSS to do so.\
 Remember that each tag has a semantic meaning and using it wrong, can affect your position on search engine result pages.
 
+### Image element
+The `img` element is used to embed an image into the document.\
+You can create this element with the `<img>` tag. (empty tag).\
+Use the `src` attribute to specify the localtion of the file.\
+Use the `alt` attribute to specify an alternative text to show if an error occurs, or the image cannot be displayed.
+
+The `alt` attribute is not required, but if added, it will be incredible useful for accesibility concerns.\
+Consider that the content of the `alt` attribute is used by search engines, and screen reader devices.
+
+```html
+<img src="..." alt="...">
+```
+
+There are other attributes such as `width` and `height` that allow you to modify the size of an image, but you must use css instead.
+
 ### Phrase elements
 Phrase elements are tags that indicate the context and meaning of specific parts of a text.\
 These elements are displayed in line, which means it won't affect the structure of the content.
