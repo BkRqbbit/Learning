@@ -371,6 +371,25 @@ Consider that the browser will add some default styles, that you can change with
 It can be used in technical websites. To add a more meaningful content.\
 It was designed mainly for technical documentation.
 
+#### strong
+The `strong` html element is used to indicate that the text selected has a strong importance, seriousness, our urgency in comparison with surrounding text.\
+It is a semantic element of html5.\
+Its usage is mainly oriented for software technologies that may access the content such as screen readers, search engines, etc.
+
+Web browsers typically adds default styles to it, but you can completely customize it by using CSS.
+
+```html 
+<p>the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong></p>
+```
+
+```html
+<p>Before proceeding, <strong>make sure you put on your safety goggles</strong.</p>
+```
+
+```html
+<p><strong>Important:</strong> Before proceeding, make sure yyou add plenty of butter.</p>
+```
+
 ### Ordered lists
 Lists are used to organize the information of your web page.\
 With ordered lists you can create a step-by-step guide in case you require to explain something.\
