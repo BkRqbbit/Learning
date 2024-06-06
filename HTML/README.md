@@ -273,6 +273,9 @@ Consider that the content of the `alt` attribute is used by search engines, and 
 
 There are other attributes such as `width` and `height` that allow you to modify the size of an image, but you must use css instead.
 
+When the purpose of an image is to show some text, configure the alt attribute to contain that text to make it more accesible.\
+Search Engine robots keep this in consideration for positioning your website on search result pages.
+
 ### Phrase elements
 Phrase elements are tags that indicate the context and meaning of specific parts of a text.\
 These elements are displayed in line, which means it won't affect the structure of the content.
