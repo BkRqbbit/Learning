@@ -1,0 +1,15 @@
+figure{
+    border: 2px solid black;
+    padding: 5px;
+    width: 640px;
+}
+
+figcaption{
+    font-family: fantasy;
+    text-align: center;
+}
+
+#island-img{
+    width: 640px;
+    height: 480px;
+}
