@@ -660,3 +660,30 @@ Ex: Showing some legal information
 
 <p><small>The content is licensed under a Creative Commons Attribution-ShareAlike 2.5 Generic Licence.</small></p>
 ```
+
+### figure element
+It defines a unit that stores an image, and an optional captions for it.\
+It is considered as a single element.
+
+```html
+<figure>
+    <img src="..." alt="...">
+    <figcaption>...</figcaption>
+</figure>
+```
+
+Keep in mind that the `figure` element can be an image, illustration, diagram, code snippet.\
+A caption can be associated to it by adding the `figcaption` element within it.
+
+Quotations
+```html
+<figure>
+    <figcaption>
+        <b>Edsger Dijkstra:</b>
+    </figcaption>
+    <blockquote>
+        If debuging is the process of removing software bugs,
+        then programming must be the process of putting them in.
+    </blockquote>
+</figure>
+```
