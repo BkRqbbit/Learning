@@ -408,6 +408,25 @@ Web browsers typically adds default styles to it, but you can completely customi
 <p><strong>Important:</strong> Before proceeding, make sure yyou add plenty of butter.</p>
 ```
 
+#### sub element
+The `sub` element is used to represent the subscript element.\
+It is used to specify inline text that must be displayed as a subscript.\
+Browsers display it with a smaller text size.
+
+```html
+<p>Almost every developer's favorite molecule is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as "caffeine".</p>
+```
+
+Footnote numbers
+```html
+<p>According to the computations by Nakamura, Johnson, and Mason <sub>1</sub> this will result in the complete annihilation of both particles.</p>
+```
+
+Variable subscripts
+```html
+<p>The horizontal coordinates' positions along the X-axis are represented as <var>x<sub>1</sub></var>...<var>x<sub>n</sub></var></p>
+```
+
 ### Ordered lists
 Lists are used to organize the information of your web page.\
 With ordered lists you can create a step-by-step guide in case you require to explain something.\
