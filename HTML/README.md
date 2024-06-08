@@ -687,3 +687,16 @@ Quotations
     </blockquote>
 </figure>
 ```
+
+### meter element
+The `meter` element is used to display a visual bar.\
+This element is configured with the following attributes:
+- value (value displayed)
+- min (lowest value in range)
+- max (highest value in range)
+
+Consider that all the values must be known!
+
+```html
+<meter value="..." min="..." max="...">...</meter>
+```
