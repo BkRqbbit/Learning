@@ -1,0 +1,10 @@
+#wrapper{
+	background-color: #55AD9B;
+	display: grid;
+	padding: 10px;
+	gap: 10px;
+}
+
+div{
+	background-color: #95d2b3;
+}
