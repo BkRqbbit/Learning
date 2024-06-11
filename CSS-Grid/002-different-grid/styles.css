@@ -1,0 +1,28 @@
+body{
+    background-color: #1679AB;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+
+div{
+    background-color: #102C57;
+}
+
+#container{
+    display: grid;
+    margin-bottom: 40px;
+    gap: 10px;
+    padding: 10px;
+}
+
+#inline-container{
+    display: inline-grid;
+    padding: 10px;
+    gap: 10px;
+}
+
+.element{
+    border: 2px solid white;
+}
