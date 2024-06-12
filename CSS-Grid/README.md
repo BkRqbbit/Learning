@@ -21,3 +21,10 @@ You must know that once you create a grid container, all the elements inside (gr
 A grid container is used to establish a grid format that we can specify for the design of our web.\
 Which means we can specify the number of columns and rows we want to use!\
 Also, the dimensions of each one of them, depending on the layout we want to achieve.
+
+## grid-template-columns
+Define the number of columns of a grid, and its sizes.
+
+You must use the property `grid-template-columns` followed by the size of each column\
+`grid-template-columns: 200px 200px;`\
+If there are more elements than columns, they will be grouped down, creating another row.
