@@ -29,6 +29,12 @@ You must use the property `grid-template-columns` followed by the size of each c
 `grid-template-columns: 200px 200px;`\
 If there are more elements than columns, they will be grouped down, creating another row.
 
+When we use the `grid-template-columns` we must specify the size of each column.\
+You must know that you can use fixed values, and percentage values.\
+By using percentage values, the size of the container is taked as a reference.\
+We can use the following to create two columns, at 50% size each.\
+`grid-template-columns: 50% 50%;`
+
 ## grid
 The `grid` property allows us to define the columns and rows of a grid in the same css rule.\
 You must first specify the rows, and then the columns.\
