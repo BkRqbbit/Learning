@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    color: white;
+    font-family: Arial;
+    font-size: 2em;
+}
+
+#wrapper{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px;
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.item{
+    background-color: steelblue;
+    text-align: center;
+}
