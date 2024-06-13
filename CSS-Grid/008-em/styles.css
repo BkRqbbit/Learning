@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 10px;
+}
+
+body{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#wrapper{
+    margin: auto;
+    margin-top: 35px;
+    width: 90%;
+}
+
+.container{
+    border: 1px solid black;
+    margin-bottom: 35px;
+}
+
+.title{
+    background-color: darkcyan;
+    font-size: 25px; 
+    padding: 5px;
+    text-align: center;
+}
+
+.grid-area{
+    display: grid;
+    font-size: 20px;
+}
+
+.em-based{
+    grid-template-columns: 15em 15em;
+    grid-template-rows: 3em 3em;
+}
+
+.rem-based{
+    grid-template-columns: 15rem 15rem;
+    grid-template-rows: 3rem 3rem;
+}
+
+.item{
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
