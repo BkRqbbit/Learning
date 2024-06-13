@@ -28,3 +28,11 @@ Define the number of columns of a grid, and its sizes.
 You must use the property `grid-template-columns` followed by the size of each column\
 `grid-template-columns: 200px 200px;`\
 If there are more elements than columns, they will be grouped down, creating another row.
+
+## grid
+The `grid` property allows us to define the columns and rows of a grid in the same css rule.\
+You must first specify the rows, and then the columns.\
+They are separated by a diagonal character.\
+`grid: 100px 100px / 50px 50px;`
+
+That rule will create a grid with two columns and two rows.
