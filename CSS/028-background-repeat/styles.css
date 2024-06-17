@@ -39,6 +39,10 @@ body{
     background-repeat: space;
 }
 
+#round{
+    background-repeat: round;
+}
+
 .container{
     background-color: steelblue;
     border: 2px solid black;
