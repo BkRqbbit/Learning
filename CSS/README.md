@@ -132,6 +132,11 @@ The values you can use for this property are:
 - repeat-y
 - repeat-x
 - no-repeat
+- space
+
+The `background-repeat: space;` rule will repeat the image in the background without cutting off parts of the image.\
+It will adjust an empty space around the images.\
+This way, get get a group of repeated images, that are not cut and fit perfectly well into the container's background.
 
 ### color
 The `color` property of CSS allows you to change the text color of an html element.
