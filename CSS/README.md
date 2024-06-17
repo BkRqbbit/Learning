@@ -118,6 +118,11 @@ The first one at the top, will be above the rest of them.
 One good practice is to use the `background-color` property as a fall-back in case your image cannot be shown.\
 In that case, the color will be loaded instead of the image, and you have control over what happens if an error occurs.
 
+You may think that the image used as a background for the web, might adjust automatically to the size of the browser, and it just doesn't.\
+There are many viewport sizes, and the image is just one size.\
+There are different techniques you can learn to addapt your images.\
+Always to offer users the better experience on your site.
+
 ### color
 The `color` property of CSS allows you to change the text color of an html element.
 
