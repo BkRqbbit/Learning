@@ -706,3 +706,9 @@ Fuel level (example)
 <label for="fuel">Fuel level:</label>
 <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter>
 ```
+
+### progress element
+The `progress` element is intended to show a bar representing a numeric value within a range of values.\
+You can specify the `value` and `max` attributes.
+
+You can place information between the opening and closing tags, which will be displayed for non-supported browsers when the element cannot be rendered (the text will be shown instead).
