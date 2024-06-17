@@ -98,6 +98,26 @@ body{
 }
 ```
 
+### background-image
+You can use the `background-image` property to set an image as the background of your web.
+
+Ex: Set the background of the body element, to an image.
+```css
+body{
+    background-image: url(texture.png);
+}
+```
+Here, the `url` function is used to specify the location of the file to be used as the background.\
+It is taking a relative path, file name, and file extension.
+
+Keep in mind that you can specify multiple `background-image` rules to the same element.\
+Elements will be placed one behind the other, so in case that you want them to be visible, they must have a transparent background and png format!\
+You can think of each image to be drawn like a layer.\
+The first one at the top, will be above the rest of them.
+
+One good practice is to use the `background-color` property as a fall-back in case your image cannot be shown.\
+In that case, the color will be loaded instead of the image, and you have control over what happens if an error occurs.
+
 ### color
 The `color` property of CSS allows you to change the text color of an html element.
 
