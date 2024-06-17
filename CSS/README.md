@@ -123,6 +123,16 @@ There are many viewport sizes, and the image is just one size.\
 There are different techniques you can learn to addapt your images.\
 Always to offer users the better experience on your site.
 
+### background-repeat
+When you specify an image to be used as the background of an element, you may encounter that the image does not fit into the dimensions of the web, so what browsers do is to repeat, or tile the image to fill all the container.\
+You can control this behaviour with the `background-repeat` property.
+
+The values you can use for this property are:
+- repeat (default)
+- repeat-y
+- repeat-x
+- no-repeat
+
 ### color
 The `color` property of CSS allows you to change the text color of an html element.
 
