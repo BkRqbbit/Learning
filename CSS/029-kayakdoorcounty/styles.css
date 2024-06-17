@@ -1,0 +1,14 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+main{
+    background-image: url(imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+nav{
+    background-color: black;
+}
