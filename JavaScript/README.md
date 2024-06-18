@@ -7,6 +7,13 @@ JavaScript is a programming language used to create dynamic and interactive web 
 
 With this programming language we can add functionalities that respond to user actions, receive and transform user input data, depending on the purpose of our site.
 
+JavaScript is a high-level, dynamic, interpreted programming language, and is well suited to object-oriented and functional programming styles.\
+The variables you use, are untyped.\
+This does gives you more flexibility in comparison to other languages, but you must be careful when handling data, because you may get unexpected results.
+
+Even when JavaScript includes multiple technical terms, and features from other languages, keep in mind that you don't need to know all of that stuff in order to learn javascript.\
+But if you do, it is a plus!
+
 ## Pre-requisite tools
 In order to be able to write JavaScript programs, you must have a set of tools installed.
 
