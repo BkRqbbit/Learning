@@ -142,6 +142,21 @@ This way, get get a group of repeated images, that are not cut and fit perfectly
 The `background-repeat: round;` will scale the image to make them fit and avoid cutting the image.\
 The result is similar to the one produced by the `space` value, but with the difference that here is not space in between the images.
 
+### background-position
+When you define an image as the background, it will be placed by default at the top left corner.\
+You can change this by using the `background-position` property.
+
+The first value specifies the horizontal position.\
+The second specifies the vertical position.\
+When you only provide one value, the second will be `center` by default.
+
+Ex: Defining values:
+```css
+body{
+    background-position: center center;
+}
+```
+
 ### color
 The `color` property of CSS allows you to change the text color of an html element.
 
