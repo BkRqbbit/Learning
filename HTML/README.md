@@ -427,6 +427,21 @@ Variable subscripts
 <p>The horizontal coordinates' positions along the X-axis are represented as <var>x<sub>1</sub></var>...<var>x<sub>n</sub></var></p>
 ```
 
+# sup element
+The `sup` element is used to specify that a portion of text must be rendered as a superscrip, which is a small font.
+
+To use this element, you must use the `<sup>...</sup>` tags.
+
+Ex:
+```html
+<p>The <em>Pythagorean theorem</em> is often expressed as the following equation: </p>
+<p>
+    <var>a<sup>2</sup></var> +
+    <var>b<sup>2</sup></var> = 
+    <var>c<sup>2</sup></var>
+</p>
+```
+
 ### Ordered lists
 Lists are used to organize the information of your web page.\
 With ordered lists you can create a step-by-step guide in case you require to explain something.\
