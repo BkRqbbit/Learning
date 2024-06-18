@@ -1,4 +1,8 @@
 # JavaScript
+JavaScript is the programming language of the web.\
+We can say this, because most of the web is built using some javascript technologies.\
+This is because most modern web browsers (used in desktop, mobile devices) does include a JavaScript interpreter, which allows javascript code to be executed.
+
 JavaScript is a programming language used to create dynamic and interactive web pages, in addition to HTML and CSS web technologies.
 
 With this programming language we can add functionalities that respond to user actions, receive and transform user input data, depending on the purpose of our site.
