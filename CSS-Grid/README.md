@@ -50,3 +50,20 @@ This way, you can define how your grid will be shown.
 By using it, you can create grid items of the same size.\
 Depending on the size of the container.\
 It will take all the space available, and will divide it between the items inside the grid.
+
+The `auto` value is useful when we have multiple items.\
+So instead of using percentages and calculating the value of each element, we can use the `auto` value instead and it will bring the same result.
+
+You can use the `auto` value with other fixed values.\
+It will allow you to adjust the grid as you want.\
+Ex: The grid will have two rows, one of 200px width, and the other will cover the rest by using the `auto` value.
+```css
+.container{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+```
+
+You must keep in mind, that when the content width of one item is larger than the rest, the grid may shrinks to adjust it.\
+The item will use as many space it needs just to show the content.\
+If the space is more than enough, all the items will be of the same size.
