@@ -42,3 +42,11 @@ They are separated by a diagonal character.\
 `grid: 100px 100px / 50px 50px;`
 
 That rule will create a grid with two columns and two rows.
+
+## auto (track size)
+The `auto` value is used to define the size of columns and rows.\
+This way, you can define how your grid will be shown.
+
+By using it, you can create grid items of the same size.\
+Depending on the size of the container.\
+It will take all the space available, and will divide it between the items inside the grid.
