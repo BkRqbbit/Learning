@@ -67,3 +67,32 @@ Ex: The grid will have two rows, one of 200px width, and the other will cover th
 You must keep in mind, that when the content width of one item is larger than the rest, the grid may shrinks to adjust it.\
 The item will use as many space it needs just to show the content.\
 If the space is more than enough, all the items will be of the same size.
+
+## fr (track size)
+If we want to create a grid with all the items having the same size, it is not possible to do by using the `auto` value, and using percentages might be a bit hard.\
+That's why, you can use the `fr` value, which means fraction.
+
+What it does, is to divide the grid area into equal parts.\
+So if you create two columsn using the `fr` value, you will get two columns of the same size, no matter the size of the content inside (as happens with the `auto` value).
+
+To use this, you may use the following strucutre:
+```css
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+```
+
+Consider that it is not enough to use the `fr` keyword.\
+It will be marked as a syntax error.\
+You must specify how many fractions you would like to use.\
+And the grid will divide into the total number of fractions used.
+
+For example, the following code creates 3 fractions.\
+Which means you will get 3 columns of the same size.
+```css
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+```
