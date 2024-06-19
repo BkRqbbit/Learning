@@ -14,6 +14,8 @@ This does gives you more flexibility in comparison to other languages, but you m
 Even when JavaScript includes multiple technical terms, and features from other languages, keep in mind that you don't need to know all of that stuff in order to learn javascript.\
 But if you do, it is a plus!
 
+In order to execute some JavaScript code, you need to select the host, which can be a web browser, or install node on a computer.
+
 ## Pre-requisite tools
 In order to be able to write JavaScript programs, you must have a set of tools installed.
 
