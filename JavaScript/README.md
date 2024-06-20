@@ -3,7 +3,11 @@ JavaScript is the programming language of the web.\
 We can say this, because most of the web is built using some javascript technologies.\
 This is because most modern web browsers (used in desktop, mobile devices) does include a JavaScript interpreter, which allows javascript code to be executed.
 
-JavaScript is a programming language used to create dynamic and interactive web pages, in addition to HTML and CSS web technologies.
+JavaScript is a programming language used to create dynamic and interactive web pages, in addition to HTML and CSS web technologies.\
+It can be used on both the server side and the client side of applications.
+
+The server side of an application is known as the backend, that is the part of an application that is run on computer servers and performs logic operations, like manipulating data, and connects with the database to store / consult information.\
+The client side of an application is commonly known as the front-end, and it usually runs on the device of the user, it is the visual part of an application.
 
 With this programming language we can add functionalities that respond to user actions, receive and transform user input data, depending on the purpose of our site.
 
