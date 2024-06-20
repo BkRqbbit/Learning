@@ -55,6 +55,17 @@ Adding the javascript file at the end of the html content:
 </html>
 ```
 
+You could also include the JavaScript code into your html file (which is not recommended for large websites) by using the same `script` tags, ommiting the `src` attribute, and placing the code in between the tags.
+Ex: Use of `script` tags inside html doc
+```html
+<head>
+    <script>
+        // JavaScript code goes in here
+        console.log("Hello World");
+    </script>
+</head>
+```
+
 ## Console log
 You can use the instruction `console.log()` to display any string that you want in the dev tools of the browser.
 
