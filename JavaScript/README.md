@@ -71,6 +71,43 @@ It will not only help you reduce the content on your html file, but it will also
 Also, consider that if you need to use the same script for multiple web pages, instead of copying the code, you can link all those html files to a single javascript file.\
 This way, you can perform changes in a better and organized way.
 
+## Code format
+There is something called `code format`.\
+First, you must know that it has nothing to do with the computer, but with humans and their capability to read/understand the code.
+
+There are some recommendations that you must follow, in order to make your code easy to read / understand / maintain.\
+Otherwise, it won't happen anything with the computer, but you and the developers that are working with the files, may waste a lot of time.
+
+These recommendations are nothing but conventions used by developers around the world to keep the code in armony so almost anyone can easily read and work with the code you wrote.
+
+### Indentation
+The code you will write, will include something know as a `block of code`, which can be identified by being placed between curly braces.\
+A function uses a block of code to define what it will do, and depending on the complexity of the code that you are writting, it is important to set a way to specify that a block of code has started, or in the other hand, just ended.
+
+In order to do this, you will use what is called `indentation`.\
+Once a block of code starts, you can use either a tab, or a set of spaces to identify that block\
+When the block ends, you must remove that additional spaces for upcoming lines of code.
+
+Ex: Use of indentation.
+```js
+function sayHello( name ){
+    // As you can see, the code inside the function, has
+    // some additional space at the beggining of the line.
+    // This is to specify that it is a new block of code!
+    console.log(`Hello back ${name}!!`);
+}
+
+sayHello("BkRqbbit");
+```
+
+If you don't use indentation, it might be a bit hard to understand the code in general.\
+It is important to consider that the computer does not care at all of the extra spaces we add, if we don't make syntax errors.
+
+Ex: Code with no indentation
+```js
+function sayHello(name){console.log(`Hello back ${name}!!`)}; sayHello("BkRqbbit");
+```
+
 ## Console log
 You can use the instruction `console.log()` to display any string that you want in the dev tools of the browser.
 
