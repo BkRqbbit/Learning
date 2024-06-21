@@ -168,6 +168,10 @@ There are two steps to create a variable:
 When we declare a variable, we are telling the computer to reserve some memory to store our data in there.\
 The moment we assign our variable, we are telling what to store in that memory space.
 
+One of the biggest benefits of variables, is that the value they store can be change any time you want while the code in being executed.\
+Consider that without variables, our programs would behave exactly the same after each iteration!\
+Variables allow our programs to work with different data and perform different operations, depending on each case they are working with.
+
 To declare a variable, we need to use the keyword and a unique name.\
 Ex: `let age;`
 
