@@ -66,6 +66,11 @@ Ex: Use of `script` tags inside html doc
 </head>
 ```
 
+It is recommended that you use an external file for your JavaScript code.\
+It will not only help you reduce the content on your html file, but it will also help you to organize the files of your web in a better way.\
+Also, consider that if you need to use the same script for multiple web pages, instead of copying the code, you can link all those html files to a single javascript file.\
+This way, you can perform changes in a better and organized way.
+
 ## Console log
 You can use the instruction `console.log()` to display any string that you want in the dev tools of the browser.
 
