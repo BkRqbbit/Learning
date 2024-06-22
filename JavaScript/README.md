@@ -200,6 +200,16 @@ You can do both declaration and assignment in case you know what the value to st
 
 But if you don't actually know what the value to store is, you can declare the variable, and assign a value to it later in the program!
 
+### Diference between var, let, and const
+There are different keywords to declare a variable.\
+Each one of them offer different characteristics that can be used, depending on the needs of our program.\
+That's why it is important to know how they work, and choose the one that fits better our needs.
+
+One of the first differences is that both `let` and `var` are used for variables that might change their value somewhere in the future.
+
+Now, the difference between `var` and `let`, is that `var` has a global scope, meanwhile `let` has a block scope.\
+Which means that the variables declared using the `var` keyword, can be used all along the javascript file, while the `let` variables can be used only in the block of code they have been created in.
+
 ## Arithmetic Operators
 Arithmetic Operations allows us to perform mathematical calculations if needed.\
 It is useful to manipulate the information that our program is intended to handle.
