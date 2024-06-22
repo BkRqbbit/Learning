@@ -172,6 +172,20 @@ One of the biggest benefits of variables, is that the value they store can be ch
 Consider that without variables, our programs would behave exactly the same after each iteration!\
 Variables allow our programs to work with different data and perform different operations, depending on each case they are working with.
 
+### Declaring variables
+The first time you create a variable, you declare it.\
+Which means, you let your program know that you want to store some data, and what name (identifier) you will use to refer to it.
+
+While declaring a variable you can also assign the value, or in case you don't know what value will be stored, just left it empty.\
+Both options are possible!
+
+To declare a new variable, you must use a special keyword to give the instruction to the JavaScript program to reserve some memory space for your variable.\
+The keywords you can use, are `let`, `var`, y `const`.
+
+The definition of a variable consist of three parts.\
+These are: `keyword`, `name`, and `value`.\
+`let age = 18; // As an example`
+
 To declare a variable, we need to use the keyword and a unique name.\
 Ex: `let age;`
 
