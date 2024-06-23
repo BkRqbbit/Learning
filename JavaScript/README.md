@@ -506,6 +506,21 @@ let hex_number = 0x3E8;
 let bin_number = 0b101;
 ```
 
+### BigInt
+The `Number` data type does have a huge capability to store big and small numbers, but in case you need to work with even bigger / slower numbers, you have the option to use a `BigInt`.
+
+The `BigInt` data type can be recognized by using the postfix `n`.\
+Ex: Creating a `BitInt` variable.
+```js
+let big_number = 90071992547409920n;
+
+console.log(`The big number is ${big_number}`);
+```
+
+You must keep in mind that in order to perform operations with the `BigInt` data type, all the numbers involved must be `BigInt` values.\
+Otherwise, you will get an error indicating that.\
+To do so, you can use `type convertion`.
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
