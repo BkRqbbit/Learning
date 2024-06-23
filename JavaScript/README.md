@@ -552,6 +552,19 @@ console.log("These two Symbols are the same: " + str_1 === str_2);
 // Here the output is false
 ```
 
+### Undefined
+JavaScript has a special data type for a variable that has not been  assigned a value.
+
+Ex: Undefined variable value
+```js
+let username;
+console.log(username);
+// Output: Undefined
+```
+
+We can also assign an undefined value to a variable.\
+This is a bad practice.
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
