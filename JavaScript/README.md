@@ -521,6 +521,19 @@ You must keep in mind that in order to perform operations with the `BigInt` data
 Otherwise, you will get an error indicating that.\
 To do so, you can use `type convertion`.
 
+### Boolean
+The `Boolean` value can hold two values: `true` and `false`.
+```js
+let user_online = false;
+console(`User online: ${user_online}`);
+```
+
+This data type is used to take desicions on our programs\
+You can also perform boolean operations.
+
+`Boolean` values are commonly used to determine the state of a thing.\
+It can be on / off.
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
