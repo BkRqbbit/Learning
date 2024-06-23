@@ -534,6 +534,24 @@ You can also perform boolean operations.
 `Boolean` values are commonly used to determine the state of a thing.\
 It can be on / off.
 
+### Symbol
+This is a relatively new data type.
+
+The `Symbol` data type can be used when it is important that variable values are not equal, even if their value and content are the same.
+
+Ex: Comparing strings and symbol variables.
+```js
+let msg_1 = "JavaScript is fun!";
+let msg_2 = "JavaScript is fun!";
+console.log("These two strings are the same: " + msg_1 === msg_2);
+// Here the output is true
+
+let str_1 = Symbol("JavaScript is fun!");
+let str_2 = Symbol("JavaScript is fun!");
+console.log("These two Symbols are the same: " + str_1 === str_2);
+// Here the output is false
+```
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
