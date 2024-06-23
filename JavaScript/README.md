@@ -489,6 +489,23 @@ console.log(str);
 */
 ```
 
+### Number
+The `Number` data type is used to store numeric values.
+
+In other programming languages, there are different types of numbers, and when declared, they must be specified which one we want to use.\
+But in javascript there is only one data type which stores them all.
+
+The `Number` data type can represent integers, decimals, exponentials, octal, hexadecimal, and binary numbers.\
+Ex: Different type of numbers
+```js
+let int_number = 1;
+let dec_number = 1.5;
+let exp_number = 1.4e15;
+let oct_number = 0o10;
+let hex_number = 0x3E8;
+let bin_number = 0b101;
+```
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
