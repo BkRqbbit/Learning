@@ -395,6 +395,100 @@ Otherwise it will return an element object.
 Another crucial point to keep in mind, is that in order to access the element, it must be present into the document.\
 It means that if the element is dynamically added, it must be created first in order to access it, otherwise it will return a null value.
 
+## Primitive data types
+First of all, you must consider that javascript is a loosely typed language.\
+This means that you don't need to specify to the browser the type of data you want to store inside the variable.\
+The language determines the type of the value it stores, by the value per se.
+
+Let's say you write the following code:\
+`let age = 20;`
+
+This will create a variable named `age` which stores the value 20.\
+If you want to know the type of the variable, javascript will check, and as the content is a numeric value, it will thell you that the type is `Number`.
+
+JavaScript uses the following data types:
+- String
+- Number
+- BigInt
+- Boolean
+- Symbol
+- undefined
+- null
+
+### String
+A string data type is used to store a text value.\
+A string is considered to be a sequence of characters.
+
+There are different ways in which you can declare an array:
+- Double quotes
+- Single quotes
+- Backticks
+
+```js
+// Creating of a string variable.
+
+// Using double quotes
+let name = "BkRqbbit";
+
+// Using single quotes
+let name = 'BkRqbbit';
+
+// Using bacbtick
+let name = `BkRqbbit`;
+```
+
+Consider that using backticks is actually a special way in which you can use variables.\
+Use the following format:
+```js
+let name = "BkRqbbit";
+let message = `Welcome back ${name}!`;
+```
+
+Note: using backticks and variables, will replace them with the value they store, it is a practical way you can use, depending on your needs!\
+To add the variable's value, you must use the syntax `${variable_name}`.\
+So, if you have a variable called `name` that stores the string `JavaScript`, you could do something like this:\
+```js
+let name = "JavaScript";
+let message = `You must learn ${language}!!!`;
+
+console.log(message);
+// prints: You must learn JavaScript!!!
+```
+
+You can use double or single quotes characters to declare your string variables, depending on your style, or if the project has already choosen one.\
+You must know that you can use one inside of the other!\
+Let's say you choose to use double quotes, you can write the following code with no problem!:\
+`let message = "Let's go!!!";`\
+
+#### Escape characters
+The `escape character` is the backslash.\
+It is used to tell JavaScript: "Don't take the next character, as you normally would".\
+This will allow us to use some special characters, that otherwise would not be possible due to the language characteristics.
+
+To use the `escape character`, you must use the backslash, followed by the character you want to use.\
+Ex: Using the backslash
+```js
+let message = "Hello! What's your name? Is it \"Mike\"?";
+
+console.log(message);
+// The previous code must be executed with no problem.
+// The backslash allows us to use double quotes more than once!
+```
+
+You can also use the `escape character` to add a break line!\
+By using the `\n` combination, you will create a new line.\
+Ex: new line
+```js
+let str = "This is one line. \nAnd this is the other!!!";
+
+console.log(str);
+/*
+    prints:
+    This is one line
+    And this is the other!!!
+*/
+```
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
