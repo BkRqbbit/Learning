@@ -565,6 +565,12 @@ console.log(username);
 We can also assign an undefined value to a variable.\
 This is a bad practice.
 
+### null
+This is a special value that can be used for indicating that a variable is empty, or that the value is unknown.
+
+When using it, consider that it is case sensitive, so you must use it with lowercase letters.\
+`let age = null;`
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
