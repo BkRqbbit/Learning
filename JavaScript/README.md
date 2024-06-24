@@ -586,6 +586,19 @@ console.log(var_type2);
 ```
 
 ## Type convertion
+The variables in JavaScript have the ability to change their type.\
+You must be aware, because sometimes the language will do it automatically, and would result in unexpected / wrong results.\
+JavaScript won't throw an error as any other language would, instead it will try to convert one data type to another, in order to perform the operation specified, with no previous warning!
+
+You must prevent the language from performing data convertions.\
+You don't know what it will do, and what will be the result.\
+JavaScript does have built-in functions that allows you to perform data type convertion, so you can not rely on the languages ability the perform the cast itself.
+
+The language offers you: `String()`, `Number()`, and `Boolean()`.\
+The `String()` method will take any value, and convert it into a string, just by putting double quoutes around the content we use.\
+The `Number()` method will try to convert the specified data into a Number, in case it is not possible, the result will be `NaN`.\
+The `Boolean()` method will convert everything to true, except for `null`, `undefined`, `0`, `""` (empty string), and `NaN`.
+
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
 
