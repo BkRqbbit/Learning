@@ -571,6 +571,20 @@ This is a special value that can be used for indicating that a variable is empty
 When using it, consider that it is case sensitive, so you must use it with lowercase letters.\
 `let age = null;`
 
+## typeof
+The `typeof` keyword is used to indicate JavaScript that we want to know what is the data type of a variables content or a content itself.
+
+To use it, you could use parenthesis, but they are not necessary.\
+Ex: Usage of `typeof` with and without parenthesis.
+```js
+let age = 20;
+let var_type = typeof age;
+let var_type2 = typeof(age);
+console.log(var_type);
+console.log(var_type2);
+// Both variables will print: Number
+```
+
 ## Type convertion
 It is the process of converting the data type of a value, to another data type.\
 It is useful when we want to manipulate some data our program stores.
