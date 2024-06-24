@@ -212,7 +212,8 @@ Which means that the variables declared using the `var` keyword, can be used all
 
 ## Arithmetic Operators
 Arithmetic Operations allows us to perform mathematical calculations if needed.\
-It is useful to manipulate the information that our program is intended to handle.
+It is useful to manipulate the information that our program is intended to handle.\
+They are useful in case we want to work with variables, modify their values, perform calculations, or compare their values.
 
 It is important to keep in mind the following concepts:
 - Operands (values, variables, etc)
@@ -221,6 +222,20 @@ It is important to keep in mind the following concepts:
 ### Addition
 The addition operator allows us to add a value to another value.\
 Ex: `students = 30 + 1`
+
+The `addition` operation uses the `+` symbol.\
+But you must keep in mind, that if you use this symbol with strings, you will concatenate them!
+
+Ex: String concatenation
+```js
+let first_name = "Bk";
+let last_name = "Rqbbit";
+let full_name = first_name + last_name;
+
+console.log("Your full name is: " + full_name);
+```
+
+Adding numbers and strings, lead to different results.
 
 ### Substraction
 The substraction symbol is represented by the following symbol: `-`\
