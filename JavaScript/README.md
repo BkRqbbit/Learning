@@ -711,3 +711,9 @@ if( age >== 18 && name === "BkRqbbit" ){
     console.log("Welcome back, sir!");
 }
 ```
+
+### Or
+Now, if you have a situation where you want to execute a block of code that depends on two conditions, but you only require one of them to be true, you can use the `or` operator.\
+To use it, you use the following character combination: `||`.
+
+When both expressions are false, it will return false.
