@@ -717,3 +717,20 @@ Now, if you have a situation where you want to execute a block of code that depe
 To use it, you use the following character combination: `||`.
 
 When both expressions are false, it will return false.
+
+### Not
+There will be some situations in which you would like to negate a boolean value.\
+You can do it by using the `not` operator, which can be used with the `!` character.
+
+Ex: Using the `not` operator.
+```js
+let user_online = false;
+
+if( !user_online ){
+    console.log("The user is not online!");
+}
+```
+
+This operator will flip the value of a boolean.\
+If your boolean is true, it will return false.\
+If your boolean is false, it will return true.
