@@ -622,3 +622,73 @@ So if we read a number, we cannot apply the corresponding operations and unexpec
 
 We can convert any value from a type to another.\
 string, numbers, booleans, etc.
+
+## Comparison Operators
+The outcome of the `comparison operators` is always a `Boolean` value.
+
+### Equal
+There are two `equal` `comparison operators`.\
+The first (`==`) just compares that the data is equal.\
+The second (`===`) compares the value, and the data type.
+
+Ex: Different type, but same value
+```js
+let x = 5;
+let y = "5";
+
+console.log( x == y );
+// True!
+// Same value
+
+console.log( x === y );
+// False
+// Same value, but different data type
+```
+
+You must be aware of both comparison operators.\
+Using the wrong one for an important operating may lead to unexpected results / behaviours of our program application.\
+And depending on the severity of our program, it might bring several consequences.
+
+### Not Equal
+This operator is similar to the `equal` operator, but it does exactly the opposite!\
+This operator will check that the values are different (not equal).
+
+If both arguments are equal, it returns false.\
+If both arguments are different, it returns true.
+
+To use the `not equal` operator, you use the following combination: `!=`.
+
+Here also exist the normal comparison, and the strict comparison.\
+If you use `!=` the program will only compare the values.\
+If you use `!==` the program will compare the values, and data types.
+
+### Greater than and smaller than
+The greater operator returns true, if the right operand is greater that the left one.\
+The smaller operator returns true if the right operand is smaller than the left one.
+
+We can use the `>` character as the greater operator.\
+We can use the `<` character as the lower operator.
+
+Ex: Use of both operators
+```js
+let x = 1;
+let y = 3;
+
+// Greater operator
+console.log(y > x);
+
+// Smaller operator
+console.log(x < y);
+```
+
+There's also the operands `greater than or equal` and `smaller than or equal`.\
+They work exactly the same, but they include the case where both values are the same, and not explicitely greater or smaller.
+
+Ex: Using greater than or equal operator.
+```js
+let x = 5;
+let y = 5;
+
+console.log(x > y); // False
+console.log(x >= y); // True
+```
