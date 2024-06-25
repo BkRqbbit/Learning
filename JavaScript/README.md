@@ -692,3 +692,22 @@ let y = 5;
 console.log(x > y); // False
 console.log(x >= y); // True
 ```
+
+## Logical Operators
+### And
+The operator `and` allows us to combine two conditions as one.\
+This operator will return `true` only if both conditions are true, otherwise, it will return `false.\
+To use the `and` operator, you must use the `&&` symbols between the two expressions to be evaluated.\
+
+The format you must use, is as follows:
+`(condition 1) && (condition 2)`
+
+Ex: Use of the `and` operator:
+```js
+let age = 20;
+let name = "BkRqbbit";
+
+if( age >== 18 && name === "BkRqbbit" ){
+    console.log("Welcome back, sir!");
+}
+```
