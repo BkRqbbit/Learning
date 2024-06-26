@@ -427,7 +427,7 @@ Variable subscripts
 <p>The horizontal coordinates' positions along the X-axis are represented as <var>x<sub>1</sub></var>...<var>x<sub>n</sub></var></p>
 ```
 
-# sup element
+#### sup element
 The `sup` element is used to specify that a portion of text must be rendered as a superscrip, which is a small font.
 
 To use this element, you must use the `<sup>...</sup>` tags.
@@ -727,3 +727,18 @@ The `progress` element is intended to show a bar representing a numeric value wi
 You can specify the `value` and `max` attributes.
 
 You can place information between the opening and closing tags, which will be displayed for non-supported browsers when the element cannot be rendered (the text will be shown instead).
+
+### var
+This element is used as the `variable element`.\
+It can be used to represent the name of a variable in math or programming related topics.
+
+Each browser will add different styles to it.\
+But it is commonly italized.\
+
+Keep in mind that as any other html element, you must avoid using this tag to style the content of your web.\
+Instead you must use another technology (such as CSS).
+
+Ex: Using the `var` tag.
+```html
+<p>The volume of a box is <var>l</var> x <var>w</var> x <var>h</var>, where <var>l</var> represents the lenght, <var>w</var> represents the width, and <var>h</var> represents the height of the box.</p>
+```
