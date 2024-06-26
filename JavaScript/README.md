@@ -754,3 +754,76 @@ Its properties can be: weight, name, color, breed.\
 An array is an object type, that allows you to store multiple values and access them with a single identifier.\
 You can think of an array as a list of items!\
 Think for example on the list of items to buy at the super market.
+
+An array can store different data type values.\
+The values it store, won't be parsed into a different data type.\
+So you don't need to worry about unexpected behaviours.
+The more you expose to different coding problems, you will be in need of more complex solutions, such as arrays!
+
+### Creating an array
+To create an array, you must use the following structure:
+```js
+let colors = ["Black", "White", "Red", "Blue"];
+```
+
+Ex: User info stored into an array
+```js
+let user_data = ["BkRqbbit", 23, true];
+console.log(`The user ${user_data[0]} is ${user_data[1]} years old, and is online: ${user_data[2]}`);
+// Output: The user BkRqbbit is 23 years old, and is online: true
+```
+
+To access the elements of an array, you must reference the index of the element.\
+To do this, you must use square brackets and the index number as follows:
+```js
+let names = ["BkRqbbit", "White", "Mistical"];
+console.log(names[0]);
+// Output: BkRqbbit
+```
+
+### Access  its elements
+We don't need to specify the index number when creating the array.\
+The array itself will give each element an index number.\
+Consider the example of the list of things to buy!\
+They go one item after the other, so we can say that the index number is not a random number.\
+It will start on 0, and will go as long as the array is.
+
+Consider that you can't use negative index values.\
+They just don't exist!\
+However, if you try to access a negative index value, you will get `undefined`.\
+Same happens when you try to access a bigger index value than the array size!
+
+### Overwrite
+You can overwrite the value of an array by using its index!\
+Check the following example:
+```js
+let cars = ["Toyota", "Volkswagen", "Nissan"];
+console.log(cars);
+
+cars[0] = "Tesla";
+console.log(cars);
+```
+
+### lenght property
+Arrays does have a built-in property that allows you to know the number of elements your array has.\
+This property is the `lenght` property.
+
+You can use it like this:
+```js
+let cars = ["Tesla", "Nissan", "Chevrolet", "Renault"];
+let size = cars.length;
+```
+
+You must be careful when using the `length` property to access an element of the array.\
+The index value will be one number less, and it can generate unexpected results.\
+In case you want to access the last item of an array, you can do something like this:\
+`let last_item = array.legth - 1;`
+
+Ex: Access the last element of an array
+```js
+let colors = ["Black", "White", "Red", "Blue"];
+let size = colors.legth;
+
+console.log("The size of the array is: " + size); // Prints: 4
+console.log("The last element of the array is: " + colors[size - 1]); // Prints: Blue
+```
