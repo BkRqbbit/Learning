@@ -734,3 +734,23 @@ if( !user_online ){
 This operator will flip the value of a boolean.\
 If your boolean is true, it will return false.\
 If your boolean is false, it will return true.
+
+## Objects
+Primitive data types are the basics of the language.\
+So in order to be able to build more complex systems, you might know how to use multi-store objects.\
+An object allows you to manipulate and store multiple values.
+
+An object, is a collection of properties and methods.\
+Properties are the variables the object has access to.\
+And methods are the functions the object can execute.\
+An object will allow you to build even more complex data types.\
+You can just use variables, or other objects!
+
+One fancy thing about objects, is that they allow you to represent things of the real world.\
+Think of a dog, you can create a `dog` object.\
+Its properties can be: weight, name, color, breed.\
+
+## Arrays
+An array is an object type, that allows you to store multiple values and access them with a single identifier.\
+You can think of an array as a list of items!\
+Think for example on the list of items to buy at the super market.
