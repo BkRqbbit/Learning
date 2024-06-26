@@ -96,3 +96,7 @@ Which means you will get 3 columns of the same size.
     grid-template-columns: 1fr 1fr 1fr;
 }
 ```
+
+## minmax()
+This function is used to define the minimum and maximum size of a grid track.\
+So when we try to make our layout responsive, it won't get over those limits, that can at certain point, ruin the whole web appearance.
