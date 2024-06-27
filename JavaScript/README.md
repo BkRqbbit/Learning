@@ -849,3 +849,20 @@ console.log(fruits);
 ```
 
 An interesting thing to keep in mind, is that the `push()` method does return the new size of the array!
+
+### splice()
+This method is used when you want to add a new element to an array, in a different position than the end.\
+By using this method, you can specify the index you want to insert the new element.\
+All the elements in the right, will be moved one place.
+
+The `splice()` method uses multiple parameters.\
+The first one, is the index where you want to start inserting a new element.\
+The second one, is to specify the number of elements you want to delete from that point to the right.\
+All the arguments that goes after these two, are the values we want to insert.
+
+Ex: Usage of the `splice()` method
+```js
+let shapes = ["Circle", "Square", "Rectangle"];
+shapes.splice(1, 0, "Triangle");
+console.log(shapes);
+```
