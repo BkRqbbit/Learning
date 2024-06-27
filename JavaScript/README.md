@@ -904,3 +904,17 @@ numbers.pop();
 console.log(numbers);
 // Output: 1, 2, 3, 4
 ```
+
+### shift()
+The `shift()` method can be used to remove the first element of an array.\
+It will cause that the left elements of the array, shift their positions by 1 element to the left (-1 to the indice).
+
+Ex: Usage of the `shift()` method:
+```js
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
+
+numbers.shift();
+console.log(numbers);
+// Output: 2, 3, 4, 5
+```
