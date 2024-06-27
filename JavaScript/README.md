@@ -827,3 +827,25 @@ let size = colors.legth;
 console.log("The size of the array is: " + size); // Prints: 4
 console.log("The last element of the array is: " + colors[size - 1]); // Prints: Blue
 ```
+
+### push()
+You can add new elements to an array using indices.\
+However this is not recommended due to the facility to commit a mistake.\
+You could add more than one single element, or overwrite an existing one.\
+That is not the action we want to perform.
+
+There is a special way to do this (the right way), that is using the `push()` method.\
+Consider that the value, is added at the end of the array.
+
+To use this method, you need to use the name of the array, a dot, and then the method itself.\
+The value you want to add, goes in between the parenthesis of the method.
+
+Ex: Adding a new item to the array using the push() method.
+```js
+let fruits = ["Mango", "Orange", "Lemon"];
+fruits.push("Lime");
+console.log(fruits);
+// Output: Mango, Orange, Lemon, Lime
+```
+
+An interesting thing to keep in mind, is that the `push()` method does return the new size of the array!
