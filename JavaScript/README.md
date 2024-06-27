@@ -867,6 +867,20 @@ shapes.splice(1, 0, "Triangle");
 console.log(shapes);
 ```
 
+You must know that the `splice()` method can be used to delete elements from an array!\
+To do this, just ommit the list of items to add.\
+So, the `splice()` method just specifies the index where you want to start, and the number of elements to delete.
+
+Ex: Usage of `splice()` to delete elements from an array:
+```js
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
+
+numbers.splice(0, 2);
+console.log(numbers);
+// Output: 3, 4,5
+```
+
 ### concat()
 The `concat()` method is used to add one array to other.\
 It will create a new array, that is the concatenation of both previously specified arrays.\
