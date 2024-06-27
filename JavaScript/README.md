@@ -891,3 +891,16 @@ colors = ["Black", "White"];
 colors = colors.concat("Red", "Blue");
 console.log(colors);
 ```
+
+### pop()
+The `pop()` method can be used to remove that last element of an array.
+
+Ex: Usage of the `pop()` method
+```js
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
+
+numbers.pop();
+console.log(numbers);
+// Output: 1, 2, 3, 4
+```
