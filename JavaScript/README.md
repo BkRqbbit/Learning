@@ -866,3 +866,28 @@ let shapes = ["Circle", "Square", "Rectangle"];
 shapes.splice(1, 0, "Triangle");
 console.log(shapes);
 ```
+
+### concat()
+The `concat()` method is used to add one array to other.\
+It will create a new array, that is the concatenation of both previously specified arrays.\
+You must know that the elements of the concatenated array, will be added at the end!
+
+Ex: Usage of the `concat()` method.
+```js
+let colors_1 = ["Black", "White"];
+let colors_2 = ["Red", "Blue"];
+let colors = colors_1.concat(colors_2);
+
+console.log(colors);
+// Output: Black, White, Red, Blue
+```
+
+We can also use the `concat()` method to add one or multiple values to an existing array!\
+Consider that all the values will be added at the end of it.
+
+Ex: Using `concat()` to add values to an array
+```js
+colors = ["Black", "White"];
+colors = colors.concat("Red", "Blue");
+console.log(colors);
+```
