@@ -966,3 +966,15 @@ console.log(`The position of the value 2 is at index: ${position}`);
 You must know that you can use a second argument.\
 This is the `startAt`, where you can specify the position you want to start looking for.\
 This way allows you to find for a second or more coincidences.
+
+### lastIndexOf()
+The `lastIndexOf()` array method allows us to search for the last coincidence in an array.\
+Given a value, it will search for it, and return the last match.
+
+Ex: Usage of the `lastIndexOf()` method array
+```js
+let animals = ["Dog", "Cat", "Dog", "Duck", "Dog", "Lion"];
+let position = animals.lastIndexOf("Dog");
+
+console.log(position);
+```
