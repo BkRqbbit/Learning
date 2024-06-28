@@ -932,3 +932,17 @@ numbers.shift();
 console.log(numbers);
 // Output: 2, 3, 4, 5
 ```
+
+### find()
+The `find()` method can be used to determine if an specific value is part of our array.\
+This method will be executed at each item of the array until it finds the coincidence.\
+In case the specified value is not found, it will return `undefined`.
+
+Ex: Usage of the `find()` method.
+```js
+let numbers = [1, 2, 3, 4, 5];
+let find = numbers.find(function(e){ return e === 5 });
+console.log(find);
+// If the value is found, return the value.
+// Otherwise, the variable is empty
+```
