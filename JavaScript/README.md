@@ -946,3 +946,23 @@ console.log(find);
 // If the value is found, return the value.
 // Otherwise, the variable is empty
 ```
+
+### indexOf()
+There will be times were we don't only want to know that a value exist.\
+We also want to know what is its index so we can manipulate it.
+
+This method will return the index where the element was found.\
+In case there is more than one match, the method will return only the first coincidence.\
+In the other hand, if the value is not found, it will return -1.
+
+Ex: Usage of the `indexOf()` array method.
+```js
+let numbers = [2, 4, 6, 8, 10];
+let position = numbers.indexOf(2);
+console.log(`The position of the value 2 is at index: ${position}`);
+// Output: 0
+```
+
+You must know that you can use a second argument.\
+This is the `startAt`, where you can specify the position you want to start looking for.\
+This way allows you to find for a second or more coincidences.
