@@ -993,3 +993,17 @@ console.log(names);
 names.sort();
 console.log(names);
 ```
+
+### reverse()
+The `reverse()` array method will revert the position of the elements inside.\
+Which means, it will take the first and last items, and swap positions.
+
+Ex: Usage of the `reverse()` method.
+```js
+let colors = ["Black", "White", "Red", "Blue", "Pink"];
+console.log(colors);
+
+colors.reverse();
+console.log(colors);
+
+```
