@@ -978,3 +978,18 @@ let position = animals.lastIndexOf("Dog");
 
 console.log(position);
 ```
+
+### sort()
+The `sort()` array method can be used to sort the content of an array.\
+Keep in mind that numbers are sorted in ascending way (from small to higher values).\
+Also, strings go from A to Z.\
+When you sort the array, it will change the position of elements of the original array.
+
+Ex: Usage of the `sort()` array.
+```js
+let names = ["Alicia", "Berth", "Fatiha", "James", "Maria"];
+console.log(names);
+
+names.sort();
+console.log(names);
+```
