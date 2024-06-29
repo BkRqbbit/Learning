@@ -735,21 +735,6 @@ This operator will flip the value of a boolean.\
 If your boolean is true, it will return false.\
 If your boolean is false, it will return true.
 
-## Objects
-Primitive data types are the basics of the language.\
-So in order to be able to build more complex systems, you might know how to use multi-store objects.\
-An object allows you to manipulate and store multiple values.
-
-An object, is a collection of properties and methods.\
-Properties are the variables the object has access to.\
-And methods are the functions the object can execute.\
-An object will allow you to build even more complex data types.\
-You can just use variables, or other objects!
-
-One fancy thing about objects, is that they allow you to represent things of the real world.\
-Think of a dog, you can create a `dog` object.\
-Its properties can be: weight, name, color, breed.\
-
 ## Arrays
 An array is an object type, that allows you to store multiple values and access them with a single identifier.\
 You can think of an array as a list of items!\
@@ -1050,3 +1035,76 @@ That returns the value `1`.
 
 It can go deeper, and not only to two dimensional arrays.\
 Consider that the level you choose to use, is the number of indices you must specify.
+
+# Objects
+An object is a data structure that allows you to group multiple variables and access them with a single identifier.\
+This programming way is useful to represent real life objects and make our programs more flexible.
+
+To create an object, you must use curly braces, and all the properties goes inside.
+Ex: Creating an object.
+```js
+let dog = {
+    name: "Puppy",
+    weight: 2.4,
+    color: "Brown",
+    age: 10,
+    breed: "Chihuahua"
+};
+```
+
+## Accessing the data
+
+To access the elements of an object, we do it in a similar way than arrays.\
+We use the name of the variable, square brackets, but instead of using a number as index value, we use the name of the property.\
+`object_name["object_property"];`\
+Ex: Accessing the elements of an object.
+```js
+let dog = {
+	name: "Bobby",
+	age: 2,
+};
+
+console.log(`I have a dog whose name is ${dog["name"]}`);
+console.log(`${dog["name"]} is ${dog["age"]} years old!`);
+```
+
+There is another way we can use to access to the elements of the object.\
+It is by using the object name, a dot, and then the property name.\
+`dog.name`\
+Ex: Accessing the values of an object
+```js
+let dog = {
+	name: "Bobby",
+	age: 2,
+	color: "Brown"
+};
+
+let name = dog.name;
+let age = dog.age;
+let color = dog.color;
+
+console.log(`I have a dog whose name is ${name}`);
+console.log(`${name} is ${age} years old.`);
+console.log(`A funny thing is that ${name} is of color ${color}`);
+
+```
+
+## Updating data
+You can change the value stored by object properties.\
+Both options are available, as if you were to consult the data.
+
+Ex: Updating the values of an object!
+```js
+let dog = {
+    name: "Bobby",
+    age: 2
+};
+
+dog["name"] = "Cheeto";
+dog.age = 3;
+
+console.log(dog);
+```
+
+Each property can be threated as a normal variable.\
+Which means, we can use any data type, with no problems!
