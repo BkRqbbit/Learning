@@ -100,3 +100,16 @@ Which means you will get 3 columns of the same size.
 ## minmax()
 This function is used to define the minimum and maximum size of a grid track.\
 So when we try to make our layout responsive, it won't get over those limits, that can at certain point, ruin the whole web appearance.
+
+## max-content
+This feature is used to control the size of a grid track, based on the content inside of it.\
+It is a value that can be used for the `grid-template-columns` propertie.
+
+For the `max-content` value, will make the text to no wrap.\
+All the text will be in a single line, and the container size will be adjusted to fit all the content inside.
+
+When you do combine both using the `minmax()` function, it will keep in between the minimum and maximum size.\
+Wrapping the content to follow the size of the grid.
+
+## min-content
+The value `min-content` will wrap the text to make the container as small as possible.
