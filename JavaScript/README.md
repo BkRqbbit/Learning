@@ -1007,3 +1007,46 @@ colors.reverse();
 console.log(colors);
 
 ```
+
+# Multidimensional arrays
+An array can contain any data type.\
+This means, an array can be the element of another array.\
+It will generate an array of arrays.\
+That's known as multidimensional array.
+
+Ex: Creating an array of arrays:
+```js
+let numbers_1 = [1, 2, 3];
+let numbers_2 = [4, 5, 6];
+let numbers_3 = [7, 8, 9];
+
+let numbers = [numbers_1, numbers_2, numbers_3];
+
+console.log(numbers);
+```
+
+Ex: Creating an array of arrays.
+```js
+let numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+console.log(numbers);
+```
+
+## Accessing elements of multidimensional arrays
+In case you want to access to the elements of a bidimensional array, you must specify two indices.
+
+The following structure will help you to understand this:
+```js
+[
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+```
+
+The first indice, refers to the row you want to access.\
+And the second value goes for the colum, that is the inner value.\
+For example, if we say `numbers[0][0]`, that would access the first row, first columns.\
+That returns the value `1`.
+
+It can go deeper, and not only to two dimensional arrays.\
+Consider that the level you choose to use, is the number of indices you must specify.
