@@ -113,3 +113,10 @@ Wrapping the content to follow the size of the grid.
 
 ## min-content
 The value `min-content` will wrap the text to make the container as small as possible.
+
+## fit-content
+There will be times were we want a grid container to grow at a specific limit.\
+After the limit has been reached, the content inside will be wrapped.
+
+That's the purpose of the `fit-content()` function.\
+It takes as a parameter the maximum size the container will have.
