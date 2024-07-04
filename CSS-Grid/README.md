@@ -120,3 +120,19 @@ After the limit has been reached, the content inside will be wrapped.
 
 That's the purpose of the `fit-content()` function.\
 It takes as a parameter the maximum size the container will have.
+
+## repeat()
+The `repeat()` function can be used when all the values are the same.\
+This will prevent you from repeating the same value multiple times!
+
+The two parameters the function takes, are:\
+The number of times you want to repeat a value, and\
+the size of the grid track to repeat
+
+In this case, the value 200px will be repeated 3 times.\
+```css
+#main-content{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+```
