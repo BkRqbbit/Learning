@@ -136,3 +136,13 @@ In this case, the value 200px will be repeated 3 times.\
     grid-template-columns: repeat(3, 200px);
 }
 ```
+
+## grid gap
+There will be occasions when you want to add some space between the element of the grid.\
+You can add a gap between rows and columns
+
+You use the following properties to add a gap:\
+`grid-column-gap`\
+`grid-column-row`\
+`grid-gap`\
+`gap`
