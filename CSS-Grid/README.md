@@ -146,3 +146,11 @@ You use the following properties to add a gap:\
 `grid-column-row`\
 `grid-gap`\
 `gap`
+
+## Nested grids
+It is possible to put a grid, inside of another grid.\
+This makes that a grid item, also becomes a grid parent!
+
+What you need to do, is to treat the grid item, as if it were a grid parent.\
+Then organize the structure of the grid.\
+And that's all!
