@@ -154,3 +154,7 @@ This makes that a grid item, also becomes a grid parent!
 What you need to do, is to treat the grid item, as if it were a grid parent.\
 Then organize the structure of the grid.\
 And that's all!
+
+## Reordering grid items
+When we do create a new grid, the browser will automatically define the position of each item.\
+This default positioning goes from top to bottom, and left to right.

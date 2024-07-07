@@ -1,0 +1,51 @@
+:root{
+    --blue: #405D72;
+    --gray: #758694;
+    --pinky: #F7E7DC;
+    --white: #FFF8F3;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--pinky);
+    color: var(--white);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper{
+    background-color: var(--gray);
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 35px;
+    width: 90%;
+}
+
+#title{
+    border-bottom: 3px solid var(--pinky);
+    font-size: 35px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    width: 90%;
+}
+
+#content{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    padding: 15px;
+}
+
+.item{
+    background-color: var(--blue);
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px;
+}
