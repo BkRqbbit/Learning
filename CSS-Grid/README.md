@@ -158,3 +158,14 @@ And that's all!
 ## Reordering grid items
 When we do create a new grid, the browser will automatically define the position of each item.\
 This default positioning goes from top to bottom, and left to right.
+
+THere will be sitations where we would like to change the order of our elements without manipulating the html file.\
+We could do this using JavaScript but that could overcomplicate things.\
+Consider that there's a CSS property that allows us to change that.
+
+The `order` property uses a numeric value.\
+The higher the number, it will be the last item.\
+And the lower the value, it will be the first.
+
+You must consider that the value can be a possitive or negative value.\
+Also, all the items are set to 0 by default.
