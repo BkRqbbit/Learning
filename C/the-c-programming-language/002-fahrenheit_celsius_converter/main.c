@@ -18,7 +18,14 @@
 void show_menu();
 
 int main(){
-    show_menu();
+    int option = -1;
+
+    while( option != 0 ){
+        show_menu();
+
+        printf("> ");
+        scanf("%d", &option);
+    }
 
     float fahrenheit = LOW_LIMIT;
     float celsius = 0;
