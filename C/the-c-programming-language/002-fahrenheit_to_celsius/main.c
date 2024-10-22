@@ -1,6 +1,8 @@
 /*
     Fahrenheit to Celsius converter
     Formula: (5/9) * (F-32)
+
+    V2: Add formatted output
 */
 
 #include<stdio.h>
@@ -15,7 +17,7 @@ int main(){
 
     while( fahrenheit <= HIGH_LIMIT ){
         celsius = (5/9.0) * (fahrenheit-32);
-        printf("%dF is %dC\n", fahrenheit, celsius);
+        printf("%3dF %3dC\n", fahrenheit, celsius);
 
         fahrenheit += STEP;
     }
