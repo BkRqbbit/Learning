@@ -2,4 +2,6 @@
 Book by: `Brian W. Kernighan` && `Dennis M. Ritchie`
 
 ## Table of contents
-[001 - Hello world](001-hello_world/)
+- [001 - Hello world](001-hello_world/)
+- [002 - Fahrenheit to Celsius converter](002-fahrenheit_to_celsius)
+- [003 - Formatted output](003-formatted_output)
