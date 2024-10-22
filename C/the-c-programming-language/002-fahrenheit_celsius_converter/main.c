@@ -5,6 +5,8 @@
     V2: Add formatted output
     V3: Change values type (int -> float) for more precise results
         Limit the number of decimal numbers shown
+    V4: Implement convertion from F to C, and viceversa
+        User can chose what convertion he wants to perform
 */
 
 #include<stdio.h>
@@ -13,7 +15,11 @@
 #define HIGH_LIMIT 300
 #define STEP 20
 
+void show_menu();
+
 int main(){
+    show_menu();
+
     float fahrenheit = LOW_LIMIT;
     float celsius = 0;
 
@@ -24,4 +30,11 @@ int main(){
     }
 
     return 0;
+}
+
+void show_menu(){
+    printf("-=[Welcome to the converter]=-\n");
+    printf("1. Fahrenheit to Celsius\n");
+    printf("2. Celsius to Fahrenheit\n");
+    printf("0. Exit\n");
 }
