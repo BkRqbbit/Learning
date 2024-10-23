@@ -11,14 +11,11 @@
 
 #include<stdio.h>
 
-#define LOW_LIMIT 0
-#define HIGH_LIMIT 300
-#define STEP 20
-
 // Utils
 int get_int(char* message);
 
 void show_menu();
+void convertion( int option );
 
 int main(){
     int option = -1;
@@ -26,16 +23,7 @@ int main(){
     while( option != 0 ){
         show_menu();
         option = get_int("> ");
-        printf("Option is %d\n", option);
-    }
-
-    float fahrenheit = LOW_LIMIT;
-    float celsius = 0;
-
-    while( fahrenheit <= HIGH_LIMIT ){
-        celsius = (5/9.0) * (fahrenheit-32);
-        printf("%6.2fF %6.2fC\n", fahrenheit, celsius);
-        fahrenheit += STEP;
+        convertion( option );
     }
 
     return 0;
@@ -65,4 +53,19 @@ void show_menu(){
     printf("1. Fahrenheit to Celsius\n");
     printf("2. Celsius to Fahrenheit\n");
     printf("0. Exit\n");
+}
+
+void convertion( int option ){
+    switch( option ){
+        case 1:
+            break;
+        case 2:
+            break;
+        default:
+            printf("\n");
+            printf("[Error]: This is not a valid option!\n");
+            printf("[Info]: Choose one option from menu!\n");
+            printf("\n");
+            break;
+    }
 }
