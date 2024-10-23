@@ -55,16 +55,13 @@ void show_menu(){
 }
 
 void convertion( int option ){
-    switch( option ){
-        case 1:
-            break;
-        case 2:
-            break;
-        default:
-            printf("\n");
-            printf("[Error]: This is not a valid option!\n");
-            printf("[Info]: Choose one option from menu!\n");
-            printf("\n");
-            break;
+    // This program will only offer two types of convertion
+    // Fahrenheit to celsius, and vice-versa.
+    // Any other option will be discarted here
+    if( option < 1 || option > 2 ){
+        printf("\n");
+        printf("[Error]: This is not a valid option!\n");
+        printf("[Info]: Choose one option from menu!\n");
+        printf("\n");
     }
 }
