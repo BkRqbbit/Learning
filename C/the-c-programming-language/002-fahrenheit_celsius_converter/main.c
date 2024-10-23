@@ -15,6 +15,9 @@
 #define HIGH_LIMIT 300
 #define STEP 20
 
+// Utils
+int get_int(char* message);
+
 void show_menu();
 
 int main(){
@@ -22,9 +25,8 @@ int main(){
 
     while( option != 0 ){
         show_menu();
-
-        printf("> ");
-        scanf("%d", &option);
+        option = get_int("> ");
+        printf("Option is %d\n", option);
     }
 
     float fahrenheit = LOW_LIMIT;
@@ -37,6 +39,25 @@ int main(){
     }
 
     return 0;
+}
+
+int get_int( char* message ){
+    int status = 0;
+    int value = -1;
+
+    printf("%s", message);
+    status = scanf("%d", &value);
+    while( getchar() != '\n' );
+
+    if( status == 0 ){
+        printf("\n");
+        printf("[Error]: The data entered is not valid!\n");
+        printf("[Error]: Try again, enter only integer values!\n");
+        printf("\n");
+        return get_int( message );
+    }
+
+    return value;
 }
 
 void show_menu(){
