@@ -12,8 +12,10 @@
 #include<stdio.h>
 
 int get_option(char* message);
+float get_degrees( int option );
 void show_menu();
 void convertion( int option );
+void show_result( float input, float result, int option );
 
 int main(){
     int option = -1;
@@ -47,6 +49,28 @@ int get_option( char* message ){
     return value;
 }
 
+float get_degrees( int option ){
+    int status = -1;
+    float degrees = 0;
+
+    char* degrees_message = (option == 1)? "Fahrenheit" : "Celsius";
+
+    printf("\n");
+    printf("Enter %s degrees to convert: ", degrees_message);
+    status = scanf("%f", &degrees);
+    while( getchar() != '\n');
+
+    if( status == 0 ){
+        printf("\n");
+        printf("[Error]: Data not valid!\n");
+        printf("[Info]: Try entering a numerical value!\n");
+        printf("\n");
+        return get_degrees( option );
+    }
+
+    return degrees;
+}
+
 void show_menu(){
     printf("-=[Welcome to the converter]=-\n");
     printf("1. Fahrenheit to Celsius\n");
@@ -63,5 +87,36 @@ void convertion( int option ){
         printf("[Error]: This is not a valid option!\n");
         printf("[Info]: Choose one option from menu!\n");
         printf("\n");
+        return;
     }
+
+    // Get user degrees to convert
+    float degrees = get_degrees( option );
+    float result = 0;
+
+    // Calculate the result of the convertion
+    if( option == 1 )
+        result = (5/9.0) * (degrees-32); // Fahrenheit to Celsius
+    else
+        result = ((9/5.0) * degrees) + 32; // Celsius to Fahrenheit
+
+    show_result( degrees, result, option );
+}
+
+void show_result( float input, float result, int option ){
+    char from;
+    char to;
+
+    if( option == 1 ){
+        from = 'F';
+        to = 'C';
+    }
+    else{
+        from = 'C';
+        to = 'F';
+    }
+
+    printf("\n");
+    printf("%3.2f%c is %3.2f%c degrees!\n", input, from, result, to);
+    printf("\n");
 }
