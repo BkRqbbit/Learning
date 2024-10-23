@@ -11,9 +11,7 @@
 
 #include<stdio.h>
 
-// Utils
-int get_int(char* message);
-
+int get_option(char* message);
 void show_menu();
 void convertion( int option );
 
@@ -22,14 +20,14 @@ int main(){
 
     while( option != 0 ){
         show_menu();
-        option = get_int("> ");
+        option = get_option("> ");
         convertion( option );
     }
 
     return 0;
 }
 
-int get_int( char* message ){
+int get_option( char* message ){
     int status = 0;
     int value = -1;
 
@@ -42,7 +40,8 @@ int get_int( char* message ){
         printf("[Error]: The data entered is not valid!\n");
         printf("[Error]: Try again, enter only integer values!\n");
         printf("\n");
-        return get_int( message );
+        show_menu();
+        return get_option( message );
     }
 
     return value;
